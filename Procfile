@@ -1,0 +1,1 @@
+web: gunicorn horse_riding_lessons.wsgi
