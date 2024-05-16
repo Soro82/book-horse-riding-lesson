@@ -28,6 +28,11 @@ class Booking(models.Model):
     experience = models.IntegerField(choices=EXPERIENCE_LEVEL, default=0)
     horse = models.ForeignKey(Horse, on_delete=models.CASCADE)
 
+
+    class Meta:
+        ordering = ["-lesson_date"]
+
+
     def __str__(self):
         return f"Booking {self.id} for {self.user.username} on {self.lesson_date}"
 
