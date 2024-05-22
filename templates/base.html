@@ -1,0 +1,82 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Horse Riding Lessons</title>
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" 
+        integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <header>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark border-bottom justify-content-end" data-bs-theme="dark">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'home' %}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bookings.html">My Bookings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Make Booking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Log Out</a>
+                    </li>   
+                </ul>
+            </div>
+        </nav>
+        <h1 class="text-uppercase">Book Horse Riding Lessons</h1>
+    </header>
+
+    <main></main>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white">
+        <p class="text-center">&copy; 2024 Book Horse Riding Lessons. All rights reserved.</p>
+        <ul class="text-center" id="social-networks">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)">Facebook<i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)">Twitter<i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)">YouTube<i class="fa-brands fa-square-youtube"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)">Instagram<i class="fa-brands fa-instagram"></i></a>
+            </li>
+    
+        </ul>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+</body>
+</html>
