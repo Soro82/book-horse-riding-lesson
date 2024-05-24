@@ -1,6 +1,9 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.views import generic
 
 # Create your views here.
-def make_booking(request):
-    return HttpResponse("Make a Booking here.")
+class Home(generic.TemplateView):
+    """
+    View to dispaly the Homepage.
+    """
+    template_name = 'index.html'
