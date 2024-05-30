@@ -1,4 +1,5 @@
 from django import forms
+from datetime import date
 from .models import Booking
 
 class BookingForm(forms.ModelForm):
