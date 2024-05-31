@@ -3,6 +3,18 @@
 
 {% block content %}
 
-<p>My Bookings page</p>
+<div class="container">
+    <div class="row">
+        <p>This is a booking. {{ bookings.lesson_date}}</p>
+        {% for booking in bookings %}
+        <div class="col-md-3">
+            <h3>{{ booking.lesson_date }}</h3>
+            <h3>{{ booking.lesson_time }}</h3>
+            <h3>{{ booking.horse.name }}</h3>
+            
+        </div>
+        {% endfor %}
+    </div>
+</div>
 
 {% endblock %}
