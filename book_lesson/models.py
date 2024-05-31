@@ -27,7 +27,7 @@ class Booking(models.Model):
 
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     lesson_date = models.DateField()
-    lesson_time = models.TimeField(choices=LESSON_TIMES, default=0)
+    lesson_time = models.IntegerField(choices=LESSON_TIMES, default=0)
     location = models.IntegerField(choices=INDOOR_OUTDOOR, default=0)
     experience = models.IntegerField(choices=EXPERIENCE_LEVEL, default=0)
     horse = models.ForeignKey(Horse, on_delete=models.CASCADE)

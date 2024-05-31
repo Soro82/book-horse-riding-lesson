@@ -16,10 +16,18 @@ def booking(request):
     """
     Displays the Booking Form.
     """
-    booking = get_object_or_404(Booking)
-
     if request.method == "POST":
-        booking_form = BookingForm()
+        booking_form = BookingForm(request.POST)
+        if booking_form.is_valid():
+            booking = booking_form.save(commit=False)
+            booking.user = request.user
+            booking.save()
+            messages.add_message(
+                request, messages.SUCCESS,
+                'Your booking was successful'
+            )
+
+    booking_form = BookingForm()
 
     context = {'booking_form': booking_form}
 
