@@ -21,3 +21,13 @@ def booking(request):
     context = {'booking_form': booking_form}
 
     return render(request, 'make_booking.html', context)
+
+
+def bookings(request):
+    """
+    View to display list of bookings.
+    """
+    bookings = Booking.objects.filter(user=request.user)
+    context = {'bookings': bookings}
+
+    return render(request, 'my_bookings.html', context)

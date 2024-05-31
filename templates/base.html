@@ -30,7 +30,7 @@
                     </li>
                     {% if user.is_authenticated %}
                     <li class="nav-item">
-                        <a class="nav-link" href="bookings.html">My Bookings</a>
+                        <a class="nav-link" href="{% url 'bookings' %}">My Bookings</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{% url 'booking' %}">Make Booking</a>
