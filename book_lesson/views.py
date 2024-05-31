@@ -20,4 +20,4 @@ def booking(request):
 
     context = {'booking_form': booking_form}
 
-    return render(request, 'booking.html', context)
+    return render(request, 'make_booking.html', context)
