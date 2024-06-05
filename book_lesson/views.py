@@ -42,3 +42,25 @@ def bookings(request):
     context = {'bookings': bookings}
 
     return render(request, 'my_bookings.html', context)
+
+
+def edit_booking(request, booking_id):
+    """
+    View for the user to edit a booking.
+    """
+    booking = get_object_or_404(Booking, id=booking_id)
+
+    if request.method == 'POST':
+        form = BookingForm(request.POST, instance=booking)
+        if form.is_valid():
+            form.save()
+            messages.add_message(
+                request, messages.SUCCESS,
+                'Your update was successful.'
+            )
+
+    context = {
+        'form': form
+        }
+
+    return render(request, 'edit_booking.html', context)
