@@ -5,11 +5,12 @@
 
 <div class="container">
     <div class="row">
+        {% for booking in bookings %}
         <div class="col-md-3">
             <h3>{{ booking.lesson_date }}</h3>
             <h3>{{ booking.get_lesson_time_display }}</h3>
             <h3>{{ booking.horse.name }}</h3>
-            
+            <a href="{% url 'edit' booking.id %}" class="btn btn-primary btn-sm">Edit</a>
         </div>
         {% endfor %}
     </div>
