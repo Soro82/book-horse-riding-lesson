@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from django.views import generic
 from django.contrib import messages
 from .models import Booking
@@ -50,6 +50,7 @@ def edit_booking(request, booking_id):
     """
     booking = get_object_or_404(Booking, id=booking_id)
 
+    form = BookingForm(instance=booking)
     if request.method == 'POST':
         form = BookingForm(request.POST, instance=booking)
         if form.is_valid():
@@ -58,6 +59,7 @@ def edit_booking(request, booking_id):
                 request, messages.SUCCESS,
                 'Your update was successful.'
             )
+            return redirect('bookings')
 
     context = {
         'form': form
