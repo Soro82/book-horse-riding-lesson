@@ -6,4 +6,5 @@ urlpatterns = [
     path('make_booking/', booking, name='booking'),
     path('my_bookings/', bookings, name='bookings'),
     path('edit_booking/<int:booking_id>/', edit_booking, name='edit'),
+    path('delete_booking/<int:booking_id>/', delete_booking, name='delete'),
 ]

@@ -66,3 +66,18 @@ def edit_booking(request, booking_id):
         }
 
     return render(request, 'edit_booking.html', context)
+
+
+def delete_booking(request, booking_id):
+    """
+    View for the user to delete a booking.
+    """
+    booking = get_object_or_404(Booking, id=booking_id)
+
+    booking.delete()
+    messages.add_message(
+        request, messages.SUCCESS,
+        'Booking deleted successfully.'
+        )
+    return redirect('bookings')
+
