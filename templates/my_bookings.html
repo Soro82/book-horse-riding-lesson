@@ -11,6 +11,7 @@
             <h3>{{ booking.get_lesson_time_display }}</h3>
             <h3>{{ booking.horse.name }}</h3>
             <a href="{% url 'edit' booking.id %}" class="btn btn-primary btn-sm">Edit</a>
+            <a href="{% url 'delete' booking.id %}" class="btn btn-danger btn-sm">Delete</a>
         </div>
         {% endfor %}
     </div>
