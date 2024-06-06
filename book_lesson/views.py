@@ -22,12 +22,20 @@ def booking(request):
         booking_form = BookingForm(request.POST)
         if booking_form.is_valid():
             booking = booking_form.save(commit=False)
-            booking.user = request.user
-            booking.save()
-            messages.add_message(
-                request, messages.SUCCESS,
-                'Your booking was successful'
+            booking_exists = Booking.objects.filter(
+                lesson_date= booking.lesson_date,
+                lesson_time= booking.lesson_time,
+                horse= booking.horse
             )
+            if booking_exists:
+                messages.warning(request, "This horse is already booked for this time.")
+            else:
+                booking.user = request.user
+                booking.save()
+                messages.add_message(
+                    request, messages.SUCCESS,
+                    'Your booking was successful'
+                )
 
     booking_form = BookingForm()
 
