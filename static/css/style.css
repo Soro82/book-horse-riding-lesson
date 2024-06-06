@@ -17,6 +17,14 @@ h1 {
     position: relative;
 }
 
+.card {
+    background-color: cadetblue;
+}
+
+.card-text {
+    font-size: 2rem;
+}
+
 #social-networks {
     display: flex;
     width: 100%;
