@@ -7,11 +7,16 @@
     <div class="row">
         {% for booking in bookings %}
         <div class="col-md-3">
-            <h3>{{ booking.lesson_date }}</h3>
-            <h3>{{ booking.get_lesson_time_display }}</h3>
-            <h3>{{ booking.horse.name }}</h3>
-            <a href="{% url 'edit' booking.id %}" class="btn btn-primary btn-sm">Edit</a>
-            <a href="{% url 'delete' booking.id %}" class="btn btn-danger btn-sm">Delete</a>
+            <div class="card">
+                <img src="{{ booking.horse.image.url }}" class="card-img-top" alt="{{ booking.horse.name }}">
+                <div class="card-body">
+                    <h3>{{ booking.lesson_date }}</h3>
+                    <h3>{{ booking.get_lesson_time_display }}</h3>
+                    <h3>{{ booking.horse.name }}</h3>
+                    <a href="{% url 'edit' booking.id %}" class="btn btn-primary btn-sm">Edit</a>
+                    <a href="{% url 'delete' booking.id %}" class="btn btn-danger btn-sm">Delete</a>
+                </div>
+            </div>
         </div>
         {% endfor %}
     </div>
