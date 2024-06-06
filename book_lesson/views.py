@@ -27,8 +27,14 @@ def booking(request):
                 lesson_time= booking.lesson_time,
                 horse= booking.horse
             )
+            booking_full = Booking.objects.filter(
+                lesson_date= booking.lesson_date,
+                lesson_time= booking.lesson_time
+            )
             if booking_exists:
                 messages.warning(request, "This horse is already booked for this time.")
+            elif booking_full.count() > 7:
+                messages.warning(request, "This lesson is full. Please choose another time.")
             else:
                 booking.user = request.user
                 booking.save()
