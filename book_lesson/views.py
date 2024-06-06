@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.views import generic
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
 from .models import Booking
 from .forms import BookingForm
 
@@ -12,6 +13,7 @@ class Home(generic.TemplateView):
     template_name = 'index.html'
 
 
+@login_required
 def booking(request):
     """
     Displays the Booking Form.
@@ -44,6 +46,7 @@ def bookings(request):
     return render(request, 'my_bookings.html', context)
 
 
+@login_required
 def edit_booking(request, booking_id):
     """
     View for the user to edit a booking.
@@ -68,6 +71,7 @@ def edit_booking(request, booking_id):
     return render(request, 'edit_booking.html', context)
 
 
+@login_required
 def delete_booking(request, booking_id):
     """
     View for the user to delete a booking.
@@ -81,3 +85,16 @@ def delete_booking(request, booking_id):
         )
     return redirect('bookings')
 
+
+def custom_handler404(request, exception):
+    """
+    Custom handler for 404 (Page Not Found) errors.
+    """
+    return render(request, '404.html', status=404)
+
+
+def custom_handler500(request):
+    """
+    Custom handler for 500 (Internal Server Error) errors.
+    """
+    return render(request, '500.html', status=500)
