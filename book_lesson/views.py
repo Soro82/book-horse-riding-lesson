@@ -61,7 +61,7 @@ def bookings(request):
     View to display list of bookings.
     """
     bookings = Booking.objects.filter(user=request.user).order_by("lesson_date")
-    paginator = Paginator(bookings, 4)
+    paginator = Paginator(bookings, 3)
     page_number = request.GET.get("page")
     bookings = paginator.get_page(page_number)
 
