@@ -2,7 +2,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background-color: burlywood;
+    background-color: #FFF2D7;
 }
 
 main {
@@ -18,7 +18,8 @@ h1 {
 }
 
 .card {
-    background-color: cadetblue;
+    background-color: #F98866;
+    margin-bottom: 1.5rem;
 }
 
 .card-text {
