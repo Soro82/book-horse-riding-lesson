@@ -18,12 +18,12 @@ h1 {
 }
 
 .card {
-    background-color: #F98866;
-    margin-bottom: 1.5rem;
+    background-color: #d6a79a;
+    margin: 1.5rem;
 }
 
 .card-text {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 #social-networks {
