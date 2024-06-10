@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404, redirect
 from django.views import generic
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+import datetime
 from .models import Booking
 from .forms import BookingForm
 
@@ -31,10 +32,14 @@ def booking(request):
                 lesson_date= booking.lesson_date,
                 lesson_time= booking.lesson_time
             )
+            today = datetime.date.today()
+            print(today)
             if booking_exists:
                 messages.warning(request, "This horse is already booked for this time.")
             elif booking_full.count() > 7:
                 messages.warning(request, "This lesson is full. Please choose another time.")
+            elif today > booking.lesson_date:
+                messages.warning(request, "Please choose today's date or a future date.")
             else:
                 booking.user = request.user
                 booking.save()
