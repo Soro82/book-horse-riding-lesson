@@ -59,7 +59,7 @@ def bookings(request):
     """
     View to display list of bookings.
     """
-    bookings = Booking.objects.filter(user=request.user)
+    bookings = Booking.objects.filter(user=request.user).order_by("lesson_date")
     context = {'bookings': bookings}
 
     return render(request, 'my_bookings.html', context)
