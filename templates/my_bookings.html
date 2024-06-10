@@ -20,6 +20,7 @@
             </div>
         </div>
         {% endfor %}
+        
         {% else %}
         <div class="col-md-8">
             <div class="card">
@@ -30,6 +31,17 @@
         </div>
         {% endif %}
     </div>
+    <!-- Pagination -->
+    <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+            {% if bookings.has_previous %}
+            <li><a href="?page={{ bookings.previous_page_number }}" class="page-link"> PREV &laquo;</a></li>
+            {% endif %}
+            {% if bookings.has_next %}
+            <li><a href="?page={{ bookings.next_page_number }}" class="page-link"> NEXT &raquo;</a></li>
+            {% endif %}
+        </ul>
+    </nav>        
 </div>
 
 {% endblock %}

@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404, redirect
 from django.views import generic
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from django.core.paginator import Paginator
 import datetime
 from .models import Booking
 from .forms import BookingForm
@@ -60,6 +61,10 @@ def bookings(request):
     View to display list of bookings.
     """
     bookings = Booking.objects.filter(user=request.user).order_by("lesson_date")
+    paginator = Paginator(bookings, 4)
+    page_number = request.GET.get("page")
+    bookings = paginator.get_page(page_number)
+
     context = {'bookings': bookings}
 
     return render(request, 'my_bookings.html', context)
