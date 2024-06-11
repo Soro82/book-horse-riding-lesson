@@ -102,12 +102,15 @@ def delete_booking(request, booking_id):
     """
     booking = get_object_or_404(Booking, id=booking_id)
 
-    booking.delete()
-    messages.add_message(
-        request, messages.SUCCESS,
-        'Booking deleted successfully.'
-        )
-    return redirect('bookings')
+    if request.method == 'POST':
+        booking.delete()
+        messages.add_message(
+            request, messages.SUCCESS,
+            'Booking deleted successfully.'
+            )
+        return redirect('bookings')
+
+    return render(request, 'delete_booking.html', {'booking': booking})
 
 
 def custom_handler404(request, exception):
