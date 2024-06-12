@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row justify-content-center">
+        {% for horse in horses %}
+        <div class="col-md-3">
+            <div class="card">
+                <img src="{{ horse.image.url }}" class="card-img-top" alt="A picture of a horse.">
+                <div class="card-body">
+                    <h3>{{ horse.name }}</h3>
+                    <h3>{{ horse.color }}</h3>
+                    <h3>{{ horse.height }}</h3>
+                    <a href="#" class="btn btn-primary btn-sm">Book Now</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <!-- Pagination -->
+    <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+            {% if horses.has_previous %}
+            <li><a href="?page={{ horses.previous_page_number }}" class="page-link"> PREV &laquo;</a></li>
+            {% endif %}
+            {% if horses.has_next %}
+            <li><a href="?page={{ horses.next_page_number }}" class="page-link"> NEXT &raquo;</a></li>
+            {% endif %}
+        </ul>
+    </nav>        
+</div>
+
+{% endblock %}

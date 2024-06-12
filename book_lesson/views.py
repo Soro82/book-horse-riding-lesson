@@ -4,7 +4,7 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.core.paginator import Paginator
 import datetime
-from .models import Booking
+from .models import Booking, Horse
 from .forms import BookingForm
 
 # Create your views here.
@@ -54,6 +54,20 @@ def booking(request):
     context = {'booking_form': booking_form}
 
     return render(request, 'make_booking.html', context)
+
+
+def horses(request):
+    """
+    View to display all horses available on a seperate page.
+    """
+    horses = Horse.objects.all()
+    paginator = Paginator(horses, 3)
+    page_number = request.GET.get("page")
+    horses = paginator.get_page(page_number)
+
+    context = {'horses': horses}
+
+    return render(request, 'horses.html', context)
 
 
 def bookings(request):
