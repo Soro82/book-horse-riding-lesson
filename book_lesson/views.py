@@ -29,6 +29,10 @@ def booking(request):
                 lesson_time= booking.lesson_time,
                 horse= booking.horse
             )
+            booking_time_exists = Booking.objects.filter(
+                lesson_date= booking.lesson_date,
+                lesson_time= booking.lesson_time
+            )
             booking_full = Booking.objects.filter(
                 lesson_date= booking.lesson_date,
                 lesson_time= booking.lesson_time
@@ -37,7 +41,9 @@ def booking(request):
             print(today)
             if booking_exists:
                 messages.warning(request, "This horse is already booked for this time.")
-            elif booking_full.count() > 7:
+            elif booking_time_exists:
+                messages.warning(request, "You already have a booking for this time.")
+            elif booking_full.count() > 4:
                 messages.warning(request, "This lesson is full. Please choose another time.")
             elif today > booking.lesson_date:
                 messages.warning(request, "Please choose today's date or a future date.")
