@@ -25,7 +25,7 @@
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+            <div class="collapse navbar-collapse justify-content-end ms-2" id="navbarText">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="{% url 'home' %}">Home</a>
@@ -37,10 +37,9 @@
                         <ul class="dropdown-menu">
                           <li><a class="dropdown-item" href="{% url 'bookings' %}">My Bookings</a></li>
                           <li><a class="dropdown-item" href="{% url 'booking' %}">Make Booking</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="{% url 'account_logout' %}">Log Out</a></li>
                         </ul>
-                      </li>
-                      <li class="nav-item me-4">
-                        <a class="nav-link" href="{% url 'account_logout' %}">Log Out</a>
                       </li>
                     {% else %}
                     <li class="nav-item">
@@ -50,7 +49,7 @@
                         <a class="nav-link" href="{% url 'account_signup' %}">Sign Up</a>
                     </li>  
                     {% endif %} 
-                    <li class="nav-item">
+                    <li class="nav-item me-4">
                         <a class="nav-link" href="{% url 'horses_page' %}">Horses</a>
                     </li>
                 </ul>
@@ -81,32 +80,36 @@
     </main>
 
     <!-- Footer -->
-    <footer class="footer bg-dark text-white">
+    <footer class="footer bg-dark text-white justify-content-center">
         <p class="text-center">&copy; 2024 Book Horse Riding Lessons. All rights reserved.</p>
         <ul class="text-center" id="social-networks">
             <li>
                 <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)">Facebook<i class="fab fa-facebook"></i></a>
+                    aria-label="Link to Facebook (opens in a new tab)"><i class="fab fa-facebook"></i></a>
             </li>
             <li>
                 <a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)">Twitter<i class="fa-brands fa-twitter"></i></a>
+                    aria-label="Link to Twitter (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
             </li>
             <li>
                 <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab)">YouTube<i class="fa-brands fa-square-youtube"></i></a>
+                    aria-label="Link to YouTube (opens in a new tab)"><i class="fa-brands fa-square-youtube"></i></a>
             </li>
             <li>
                 <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)">Instagram<i class="fa-brands fa-instagram"></i></a>
+                    aria-label="Link to Instagram (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
             </li>
     
         </ul>
     </footer>
+    <!-- Font Awesome Script -->
+    <script src="https://kit.fontawesome.com/2d86b06213.js" crossorigin="anonymous"></script>
     <!-- JQuery Script -->
     <script src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!-- Connect to script file in static folder -->
     <script src="{% static 'js/script.js' %}"></script>
+    <!-- Bootstrap Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
