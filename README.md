@@ -119,6 +119,17 @@ Click [here](https://book-horse-riding-lesson-c2e71d72733b.herokuapp.com) for th
 | Home Page | Click on Login | Opens the login page | Passed |
 |  | Click on Sign Up | Opens the signup page | Passed |
 |  | Click on Horses | Opens the horses page | Passed |
+| Popular Horses | Click on Login | Opens the login page | Passed |
+| Horses Page | Click on Login | Opens the login page | Passed |
+|  | Click on Heading in navbar | Opens the home page | Passed |
+|  | Click on Next | Display next 3 horses | Passed |
+|  | Click on Previous | Display previous 3 horses | Passed |
+| Login Page | enter invalid username | Error message displayed | Passed |
+|  | enter invalid password | Error message displayed | Passed |
+|  | Click on Sign Up | Opens the signup page | Passed |
+|  | no password entered | Please fill in this field | Passed |
+|  | no username entered | Please fill in this field | Passed |
+|  | enter valid username and password | Successfully logged in message | Passed |
 
 
 ## References
