@@ -1,8 +1,8 @@
 from django.urls import path
-from book_lesson.views import Home, booking, horses, bookings, edit_booking, delete_booking
+from book_lesson.views import home, booking, horses, bookings, edit_booking, delete_booking
 
 urlpatterns = [
-    path('', Home.as_view(), name='home'),
+    path('', home, name='home'),
     path('make_booking/', booking, name='booking'),
     path('my_bookings/', bookings, name='bookings'),
     path('horses/', horses, name='horses_page'),

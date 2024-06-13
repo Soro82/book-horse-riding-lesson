@@ -8,11 +8,14 @@ from .models import Booking, Horse
 from .forms import BookingForm
 
 # Create your views here.
-class Home(generic.TemplateView):
+def home(request):
     """
     View to dispaly the Homepage.
     """
-    template_name = 'index.html'
+    top_horses = Horse.objects.all()[:3]
+    context = {'top_horses': top_horses}
+
+    return render(request, 'index.html', context)
 
 
 @login_required
