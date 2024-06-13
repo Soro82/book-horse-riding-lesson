@@ -5,16 +5,34 @@
 {% load static %}
 
 <div class="container">
-    <div class="row">
-        <!-- Hero Image -->
+    <!-- Hero Image -->
+    <div class="row mt-4">
         <div class="hero-image">
             <img src="{% static 'images/hero-image.webp' %}" class="img-fluid mx-auto d-flex mt-4" alt="hero image">
         </div>
     </div>
+
+    <!-- Lesson Times Section -->
+    <div class="row justify-content-center">
+        <div class="col-lg-3 col-md-7 col-sm-4 mb-4 mt-4">
+            <div class="card">
+                <div class="card-header text-center text-uppercase">Lesson Times</div>
+                <div class="card-body">
+                    <ul class="list-group text-center">
+                        <li class="list-group-item">Monday - Sunday</li>
+                        <li class="list-group-item">10:00 - 13:00</li>
+                        <li class="list-group-item">14:00 - 18:00</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Most Popular Horses Section -->
     <div class="row justify-content-center">
         <h2 class="text-center">Our Most Popular Horses</h2>
         {% for horse in top_horses %}
-        <div class="col-md-3">
+        <div class="col-lg-4 col-md-6">
             <div class="card">
                 <img src="{{ horse.image.url }}" class="card-img-top" alt="A picture of a horse.">
                 <div class="card-body">
@@ -33,24 +51,7 @@
         </div>
         {% endfor %}
     </div>
-    <div class="row">
-        <div class="col-lg-4 col-md-7 col-sm-4 mb-4 mt-4 offset-md-2 offset-lg-4">
-            <div class="card">
-                <div class="card-header text-center text-uppercase">Lesson Times</div>
-                <div class="card-body">
-                    <ul class="list-group">
-                        <li class="list-group-item">Monday 10:00 - 13:00 and 14:00 - 18:00</li>
-                        <li class="list-group-item">Tuesday 10:00 - 13:00 and 14:00 - 18:00</li>
-                        <li class="list-group-item">Wednesday 10:00 - 13:00 and 14:00 - 18:00</li>
-                        <li class="list-group-item">Thursday 10:00 - 13:00 and 14:00 - 18:00</li>
-                        <li class="list-group-item">Friday 10:00 - 13:00 and 14:00 - 18:00</li>
-                        <li class="list-group-item">Saturday 10:00 - 13:00 and 14:00 - 18:00</li>
-                        <li class="list-group-item">Sunday 10:00 - 13:00 and 14:00 - 18:00</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 </div>
 
 
