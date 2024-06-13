@@ -116,7 +116,10 @@ Click [here](https://book-horse-riding-lesson-c2e71d72733b.herokuapp.com) for th
 
 | Location | Test | Expected Result | Result |
 | :------: | :--: | :-------------: | :----: |
-| Enter User's Name | Enter a number | Inform user that it must be all letters | Passed |
+| Home Page | Click on Login | Opens the login page | Passed |
+|  | Click on Sign Up | Opens the signup page | Passed |
+|  | Click on Horses | Opens the horses page | Passed |
+
 
 ## References
 
