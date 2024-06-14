@@ -8,7 +8,6 @@ The Horse Riding Lessons booking system allows users to book horse riding lesson
 
 ## Table of Contents
 
-### [Purpose](#purpose)
 ### [User Experience](#user-experience-ux)
 * [Project Goals](#project-goals)
 * [Agile Methodology](#agile-methodology)
@@ -42,11 +41,27 @@ The Horse Riding Lessons booking system allows users to book horse riding lesson
 * [Content](#content)
 * [Acknowledgments](#acknowledgments)
 
-## Purpose
-
 ## User Experience (UX)
 
 ### Project Goals
+
+To allow users to:
+* Book horse riding lessons.
+* Create a personal account by signing up to the website.
+* Set up a username and password for their account.
+* Log in to their personal account.
+* Choose a date and time for their lesson.
+* Choose if they want their lesson indoor or outdoor.
+* Choose their level of experience.
+* Choose what horse they want for their lesson.
+* Make changes to any bookings they have made.
+* Delete a booking they made.
+* See all the horses available with a picture of the horse and their height and color.
+* See a list of available times for lessons.
+* See the three most popular horses.
+* Log out of their account.
+* See a message confirming they are logged out.
+
 
 ### Agile Methodology
 
