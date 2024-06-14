@@ -10,11 +10,13 @@ The Horse Riding Lessons booking system allows users to book horse riding lesson
 
 ### [User Experience](#user-experience-ux)
 * [Project Goals](#project-goals)
-* [Agile Methodology](#agile-methodology)
 * [Target Audience](#target-audience)
 * [New user](#first-time-user)
 * [Registered user](#registered-user)
 * [Admin user](#admin-user)
+### [Agile Methodology](#agile-methodology)
+* [Epics](#epics)
+* [User Stories](#user-stories)
 ### [Design](#design-1)
 * [Color Scheme](#color-scheme)
 * [Horse Images](#horse-images)
@@ -62,15 +64,6 @@ To allow users to:
 * Log out of their account.
 * See a message confirming they are logged out.
 
-
-### Agile Methodology
-
-### User Stories
-
-#### Epics
-
-#### User Stories
-
 ### Target Audience
 
 ### New User
@@ -78,6 +71,66 @@ To allow users to:
 ### Registered User
 
 ### Admin User
+
+[Back to Top](#book-horse-riding-lessons)
+
+## Agile Methodology
+
+### Epics
+
+* Set up Project
+* Deployment
+* Navbar Links
+* User Registration
+* Book a Lesson
+* Add a Horses Page
+
+### User Stories
+
+#### Epic: Set up Project
+
+* Create the project and book_lesson app
+* Create the database
+* Build the models
+* Create the views
+* Create the templates
+
+#### Epic: Deployment
+
+* Open a new Heroku application
+* Add required Config Vars
+* Set up a Procfile
+* Set DEBUG to False
+
+#### Epic: Navbar Links
+
+* Links in navbar to login, log out, sign up and make a booking
+* Log out and make a booking are disabled when no user is logged in
+* Logged in username displayed when a user is logged in
+* Burger icon replaces navbar on smaller screens
+
+#### Epic: User Registration
+
+* Set up account with a username, email and password
+* Enter my age and height when registering
+* See a message stating that I am logged in
+* Have a logout button visible
+* See a confirmation message when i logout
+
+#### Epic: Book a Lesson
+
+* Choose a date for a lesson
+* Choose a time for a lesson
+* Choose whether I want indoor or outdoor
+* Choose my level of experience from a list of options
+* See a list of possible lesson times
+* See a confirmation message when i make a booking
+
+#### Epic: Add a Horses Page
+
+* See pictures of each horse on a page
+* See details of each horse under their picture
+* Have a "Book Now" button available under each horse in the Horses page
 
 [Back to Top](#book-horse-riding-lessons)
 
