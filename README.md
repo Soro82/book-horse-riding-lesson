@@ -4,6 +4,8 @@ Click [here](https://book-horse-riding-lesson-c2e71d72733b.herokuapp.com) for th
 
 ## Introduction
 
+The Horse Riding Lessons booking system allows users to book horse riding lessons. The user can set up a personal account by signing up to the site. When they are signed up they can login to their account to book a lesson. They can choose a date and time, whether they want the lesson indoor or outdoor, their level of experience and the horse they want for the lesson. When they book a lesson they can choose to edit the booking to make changes to it or they can delete the booking. There is a seperate page showing all the horse available and their details. The user can also see the three most popular horses on the Home page.
+
 ## Table of Contents
 
 ### [Purpose](#purpose)
