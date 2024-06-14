@@ -7,7 +7,7 @@
     <div class="row justify-content-center">
         {% if bookings %}
         {% for booking in bookings %}
-        <div class="col-md-3">
+        <div class="col-md-4 col-xl-3">
             <div class="card">
                 <img src="{{ booking.horse.image.url }}" class="card-img-top" alt="{{ booking.horse.name }}">
                 <div class="card-body">
