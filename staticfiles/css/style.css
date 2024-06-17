@@ -13,6 +13,15 @@ h1 {
     text-align: center;
 }
 
+.navbar {
+    padding-left: 1rem;
+}
+
+.dropdown-item {
+    width: 50%;
+    padding-right: 5px;
+}
+
 .hero-image {
     position: relative;
 }
