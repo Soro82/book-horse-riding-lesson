@@ -9,10 +9,6 @@ main {
     flex: 1 0 auto;
 }
 
-h1 {
-    text-align: center;
-}
-
 .navbar {
     padding-left: 1rem;
 }
