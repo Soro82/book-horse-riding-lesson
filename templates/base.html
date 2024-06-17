@@ -21,9 +21,9 @@
 
     <header>
         <!-- Navigation Bar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark border-bottom justify-content-end" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark border-bottom" data-bs-theme="dark">
             <a class="navbar-brand" href="{% url 'home' %}">Book Horse Riding Lessons</a>
-            <button class="navbar-toggler ms-4 me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -33,7 +33,7 @@
                         <a class="nav-link" href="{% url 'home' %}">Home</a>
                     </li>
                     {% if user.is_authenticated %}
-                    <li class="nav-item dropdown me-lg-2">
+                    <li class="nav-item dropdown me-lg-4">
                         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
                          role="button" aria-expanded="false">{{ user }}</a>
                         <ul class="dropdown-menu">
