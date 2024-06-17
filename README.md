@@ -195,11 +195,11 @@ To allow users to:
 |  | Click on Next | Display next 3 horses | Passed |
 |  | Click on Previous | Display previous 3 horses | Passed |
 | Login Page | enter invalid username | Error message displayed | Passed |
-|  | enter invalid password | Error message displayed | Passed |
+|  | Enter invalid password | Error message displayed | Passed |
 |  | Click on Sign Up | Opens the signup page | Passed |
-|  | no password entered | Please fill in this field | Passed |
-|  | no username entered | Please fill in this field | Passed |
-|  | enter valid username and password | Successfully logged in message | Passed |
+|  | No password entered | Please fill in this field | Passed |
+|  | No username entered | Please fill in this field | Passed |
+|  | Enter valid username and password | Successfully logged in message | Passed |
 
 
 ## References
