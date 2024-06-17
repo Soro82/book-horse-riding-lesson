@@ -2,7 +2,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background-color: burlywood;
+    background-color: #FFF2D7;
 }
 
 main {
@@ -17,9 +17,18 @@ h1 {
     position: relative;
 }
 
-#social-networks {
-    display: flex;
-    width: 100%;
-    list-style-type: none;
-    justify-content: space-evenly;
+.card {
+    background-color: #4abbda;
+    margin: 1.5rem;
 }
+
+.card-text {
+    font-size: 1rem;
+}
+
+#social-networks {
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+
