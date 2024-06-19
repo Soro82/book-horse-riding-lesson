@@ -75,6 +75,14 @@ To allow users to:
 [Back to Top](#book-horse-riding-lessons)
 
 ## Agile Methodology
+* I used agile methodology for this project as it required a lot of planning.
+* The Kanban Board was created using GitHub. The link to the board is [here](https://github.com/users/Soro82/projects/2).
+* I used six milestones for the project, one for each Epic. 
+* The milestones were helpful in tracking my progress through the project. 
+* The User Stories were divided up into three categories - must have, should have and could have. 
+* I used labels to categorise the user stories.
+* The User Story for the user to enter their age and height when registering is the only User Story incomplete. 
+* I had originally planned to add this to the website because I had intended for the admin user to assign horses to each booking. * I decided to allow the user to choose which horse they would like to book instead.
 
 ### Epics
 
