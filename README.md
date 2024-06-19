@@ -21,7 +21,6 @@ The Horse Riding Lessons booking system allows users to book horse riding lesson
 * [Color Scheme](#color-scheme)
 * [Horse Images](#horse-images)
 * [Wireframes](#wireframes)
-* [Data Model](#data-models)
 * [Database Scheme](#database-scheme)
 ### [Features](#features-1)
 * [Security Features](#security-features)
@@ -33,10 +32,9 @@ The Horse Riding Lessons booking system allows users to book horse riding lesson
 * [Frameworks Used](#frameworks-used)
 * [Programs Used](#programs-used)
 ### [Deployment and Local developement](#deployment-and-local-developement-1)
+* [Heroku Deployment](#heroku-deployment)
 * [Local Developement](#local-developement)
 * [ElephantSQL Database](#elephantsql-database)
-* [Cloudinary](#cloudinary)
-* [Heroku Deployment](#heroku-deployment)
 ### [Testing](#testing-1)
 ### [References](#references-1)
 * [Docs](#docs)
@@ -180,16 +178,9 @@ To allow users to:
 
 ## Deployment and Local Development
 
-### Local Development
-
-### ElephantSQL Database
-
-### Cloudinary
-
 ### Heroku Deployment
-## Deployment
 
-The game was deployed using [Heroku](https://www.heroku.com/) through the following steps.
+The website was deployed using [Heroku](https://www.heroku.com/) through the following steps.
 
 1. Log in to Heroku or create an account if necessary.
 2. Click on the button labeled "New" from the dashboard in the top right corner and select the "Create new app" option in the drop-down menu.
@@ -197,27 +188,22 @@ The game was deployed using [Heroku](https://www.heroku.com/) through the follow
 4. Click on "create app".
 5. Navigate to the settings tab and locate the "Config Vars" section and click "Reveal config vars".
 6. To add a config var:
-   * In the "KEY" field:
-      * enter PORT in all capital letters.
-   * In the "VALUE" field:
-      * enter 8000 and click "Add".
+   * In the "KEY" field - enter the KEY name in all capital letters.
+   * In the "VALUE" field - enter the actual key and click "Add".
 8. Scroll to the "Buildpacks" section and click "Add buildpack".
 9. Select Python and save changes.
-10. Add another buildpack and select Nodejs then save changes again.
-11. Ensure that the python buildpack is above the Nodejs buildpack.
 12. Navigate to the "Deploy" section by clicking the "Deploy" tab in the top navbar.
 13. Select "GitHub" as the deployment method and click "Connect to GitHub".
 14. Search for the GitHub repository name in the search bar.
 15. Click on "connect" to link the repository to Heroku.
 16. Scroll down and click on "Deploy Branch".
 17. Once the app is deployed, Heroku will notify you and provide a button to view the app.
-18. Click on "Enable Automatic Deploys" to rebuild the deployed app automatically every time you push to GitHub.
 
-Click [here](https://hangman-soro82-05b97f95a765.herokuapp.com) for the live link.
+Click [here](https://book-horse-riding-lesson-c2e71d72733b.herokuapp.com) for the live link.
 
-[Back to Top](#hangman)
+### Local Development
 
-### Forking
+#### Forking
 
 Forking is a way to make a copy of the original repository on your GitHub account to view and change without affecting the original repository.
 
@@ -225,7 +211,7 @@ Forking is a way to make a copy of the original repository on your GitHub accoun
 * At the top of the Repository(under the main navigation) locate the "Fork" button.
 * Now you should have a copy of the original repository in your GitHub account.
 
-### Cloning
+#### Cloning
 
 * Log in to GitHub and locate the GitHub Repository.
 * Under the repository name click "Clone or download".
@@ -234,6 +220,15 @@ Forking is a way to make a copy of the original repository on your GitHub accoun
 * Change the current working directory to the location where you want the cloned directory to be made.
 * Type git clone and then paste The URL copied in step 3.
 * Press Enter and your local clone will be created.
+
+### ElephantSQL Database
+
+* Click Create New Instance to start a new database.
+* Provide a name (this is commonly the name of the project: tribe).
+* Select the Tiny Turtle (Free) plan.
+* Leave the Tags blank.
+* Select the Region and Data Center closest to you.
+* Once created, click on the new database name, where you can view the database URL and Password.
 
 [Back to Top](#book-horse-riding-lessons)
 
