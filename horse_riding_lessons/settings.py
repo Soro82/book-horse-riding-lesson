@@ -12,6 +12,9 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import os
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
 import dj_database_url
 if os.path.isfile('env.py'):
     import env
@@ -105,6 +108,8 @@ WSGI_APPLICATION = 'horse_riding_lessons.wsgi.application'
 DATABASES = {
     'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 }
+
+cloudinary.config(secure = True)
 
 CSRF_TRUSTED_ORIGINS = [
     "https://*.gitpod.io",
