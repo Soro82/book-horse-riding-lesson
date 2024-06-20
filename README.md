@@ -63,12 +63,33 @@ To allow users to:
 * See a message confirming they are logged out.
 
 ### Target Audience
+The website is designed to allow people to book horse riding lessons. They can choose the date and time for their lesson, whether they would like it indoor or outdoor, their level of experience and what horse they would like for their lesson. With the CRUD (Create, Read, Update, Delete) functionality they can also view, edit and delete their bookings when they log into their account.
+
+Each user has the ability to:
 
 ### New User
+* View the lesson times available
+* See the three most popular horses
+* Access to the Horses page to see all available horses and their details
+* Register their own personal account
 
 ### Registered User
+* Login to their account
+* Make a booking
+* View their bookings
+* Update their bookings
+* Delete their bookings
 
 ### Admin User
+* Make a booking
+* View bookings for all users
+* Update bookings for all users
+* Delete bookings for all users
+* Add new horses to the website
+* Upload pictures of the horses
+* View details of all horses
+* Update details of all horses
+* Delete horses from the website
 
 [Back to Top](#book-horse-riding-lessons)
 
@@ -143,14 +164,18 @@ To allow users to:
 ## Design
 
 ### Color Scheme
+After searching Google for the top 50 website color schemes I found this cheerful and energetic combination on https://visme.co/blog/website-color-schemes/. I wanted a color palette that was warm and welcoming but also energetic.
+
+
 
 ### Horse Images
+All the images of the horses were downloaded from https://www.pexels.com
+The images were resized and converted to .webp using https://www.resizepixel.com
 
 ### Wireframes
 
-### Data Model
-
 ### Database Scheme
+![Database Scheme](documentation/images/PP4_ERD.png)
 
 [Back to Top](#book-horse-riding-lessons)
 
