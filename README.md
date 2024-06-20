@@ -183,6 +183,37 @@ The images were resized and converted to .webp using https://www.resizepixel.com
 
 ### Security Features
 
+#### User Authentication
+* Django comes with a user authentication system called AllAuth. 
+* It handles user accounts, groups, permissions and cookie-based user sessions.
+* The Django authentication system handles both authentication and authorization. 
+* Authentication verifies a user is who they claim to be, for example when a user is logging in to the website. 
+* Authorization determines what an authenticated user is allowed to do, for example in the navbar in base.html we check if the user is logged in using this line of code: {% if user.is_authenticated %}.
+
+#### CSRF (Cross Site Request Forgery)
+* CSRF attacks allow a malicious user to execute actions using the credentials of another user without that user’s knowledge or consent.
+* Django has built-in protection against most types of CSRF attacks.
+* CSRF protection works by checking for a secret in each POST request. 
+* This ensures that a malicious user cannot “replay” a form POST to your website and have another logged in user unwittingly submit that form. 
+* The malicious user would have to know the secret, which is user specific (using a cookie).
+
+#### The login_required Decorator
+* The login_required decorator is on all views that require the user to be logged in.
+* In this website it was used on the booking, edit_booking and delete_booking views. It ensures that only authenticated users can access these views.
+
+#### Custom Error Pages
+* The 404 and 500 Error Pages are used to allow the user to return to the website’s home page.
+* They use the base.html to inform the user of their error in a friendly and helpful manner.
+
+#### Form Validation
+The booking form and edit_booking forms are validated to ensure:
+* The date entered is a current date.
+* The user has not previously booked a lesson for the date and time they have chosen.
+* The user has not previously booked the same horse for the date and time they have chosen.
+* The horse has not been previously booked for the date and time they have chosen.
+* The lesson is not full (lessons are limited to 4 people).
+
+
 ### Existing Features
 
 ### Future Features
@@ -192,12 +223,30 @@ The images were resized and converted to .webp using https://www.resizepixel.com
 ## Technologies Used
 
 ### Languages Used
+* HTML5
+* CSS
+* JavaScript
+* Python
+
 
 ### Databases Used
+* ElephantSQL - Postgres Database
+* Cloudinary - Stores static files
 
 ### Frameworks Used
+* Django - https://www.djangoproject.com
+* Bootstrap v5.3 - https://getbootstrap.com
 
 ### Programs Used
+* GitHub - to host the source code.
+* GitPod - IDE used to develop the website.
+* Heroku - to deploy the project.
+* W3C Markup Validation Service - to validate the HTML code.
+* W3C CSS Validation Service - to validate the CSS code.
+* JSHint - to validate the JavaScript code.
+* CI Pep8 Python Validator - to validate the Python code.
+* Am I Responsive - to test the website's resonsiveness.
+
 
 [Back to Top](#book-horse-riding-lessons)
 
