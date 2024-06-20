@@ -164,9 +164,11 @@ Each user has the ability to:
 ## Design
 
 ### Color Scheme
-After searching Google for the top 50 website color schemes I found this cheerful and energetic combination on https://visme.co/blog/website-color-schemes/. I wanted a color palette that was warm and welcoming but also energetic.
+I wanted a color palette that was warm and welcoming but also energetic.
+I did a google search for the top 50 website color schemes but I couldn't find any that I like for this website.
+I tried a few combinations myself before settling on this one:
 
-
+![Color Palette](documentation/images/PP4_color_palette.png)
 
 ### Horse Images
 All the images of the horses were downloaded from https://www.pexels.com
@@ -324,7 +326,13 @@ The booking form and edit_booking forms are validated to ensure:
 
 ### Existing Features
 
+
+
+
 ### Future Features
+
+
+
 
 [Back to Top](#book-horse-riding-lessons)
 
