@@ -2,7 +2,7 @@
 
 Click [here](https://book-horse-riding-lesson-c2e71d72733b.herokuapp.com) for the live link.
 
-## Introduction
+## Purpose
 
 The Horse Riding Lessons booking system allows users to book horse riding lessons. The user can set up a personal account by signing up to the site. When they are signed up they can login to their account to book a lesson. They can choose a date and time, whether they want the lesson indoor or outdoor, their level of experience and the horse they want for the lesson. When they book a lesson they can choose to edit the booking to make changes to it or they can delete the booking. There is a seperate page showing all the horse available and their details. The user can also see the three most popular horses on the Home page.
 
@@ -37,8 +37,7 @@ The Horse Riding Lessons booking system allows users to book horse riding lesson
 * [ElephantSQL Database](#elephantsql-database)
 ### [Testing](#testing-1)
 ### [References](#references-1)
-* [Docs](#docs)
-* [Content](#content)
+* [Credits](#credits)
 * [Acknowledgments](#acknowledgments)
 
 ## User Experience (UX)
@@ -164,9 +163,9 @@ Each user has the ability to:
 ## Design
 
 ### Color Scheme
-I wanted a color palette that was warm and welcoming but also energetic.
-I did a google search for the top 50 website color schemes but I couldn't find any that I like for this website.
-I tried a few combinations myself before settling on this one:
+* I wanted a color palette that was warm and welcoming but also energetic.
+* I did a google search for the top 50 website color schemes but I couldn't find any that I like for this website.
+* I tried a few combinations myself before settling on this one:
 
 ![Color Palette](documentation/images/PP4_color_palette.png)
 
@@ -474,9 +473,10 @@ Forking is a way to make a copy of the original repository on your GitHub accoun
 
 ## References
 
-### Docs
-
-### Content
+### Credits
+* I used https://docs.djangoproject.com for Django documentation.
+* I used https://getbootstrap.com/docs/5.3 to learn more about Bootstrap.
+* I used https://www.w3schools.com to simplify some of the documentation in Django and Bootstrap.
 
 ### Acknowledgments 
 
