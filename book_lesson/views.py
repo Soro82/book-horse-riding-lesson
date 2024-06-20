@@ -33,6 +33,7 @@ def booking(request):
                 horse= booking.horse
             )
             booking_time_exists = Booking.objects.filter(
+                user= request.user,
                 lesson_date= booking.lesson_date,
                 lesson_time= booking.lesson_time
             )
