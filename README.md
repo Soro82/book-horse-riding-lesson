@@ -471,6 +471,9 @@ Forking is a way to make a copy of the original repository on your GitHub accoun
 | 500 Error Page | Admin raises an exception | 500 Error Page opens | Passed |
 |  | Click on Take Me Home | Returns to Home Page | Passed |
 
+### Fixed Bugs
+* The validation to check if a booking time exists for a user was preventing other users from making a booking at the same time. I added a check to see if the time was booked for the user making the request.
+
 ## References
 
 ### Credits
