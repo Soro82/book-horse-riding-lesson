@@ -173,6 +173,114 @@ All the images of the horses were downloaded from https://www.pexels.com
 The images were resized and converted to .webp using https://www.resizepixel.com
 
 ### Wireframes
+<details>
+<summary>Home Page</summary>
+
+* Mobile
+
+![Home Page Mobile Wireframe](documentation/wireframes/mobile/mobile_home_page.png)
+
+* Tablet
+
+![Home Page Tablet Wireframe](documentation/wireframes/tablet/tablet_home_page.png)
+
+* Desktop
+
+![Home Page Desktop Wireframe](documentation/wireframes/desktop/desktop_home_page.png)
+</details>
+
+<details>
+<summary>Horses Page</summary>
+
+* Mobile
+
+![Horses Page Mobile Wireframe](documentation/wireframes/mobile/mobile_horses_page.png)
+
+* Tablet
+
+![Horses Page Tablet Wireframe](documentation/wireframes/tablet/tablet_horses_page.png)
+
+* Desktop
+
+![Horses Page Desktop Wireframe](documentation/wireframes/desktop/desktop_horses_page.png)
+</details>
+
+<details>
+<summary>Booking Page</summary>
+
+* Mobile
+
+![Booking Page Mobile Wireframe](documentation/wireframes/mobile/mobile_booking_page.png)
+
+* Tablet
+
+![Booking Page Tablet Wireframe](documentation/wireframes/tablet/tablet_booking_page.png)
+
+* Desktop
+
+![Booking Page Desktop Wireframe](documentation/wireframes/desktop/desktop_booking_page.png)
+</details>
+
+<details>
+<summary>My Bookings Page</summary>
+
+* Mobile
+
+![My Bookings Page Mobile Wireframe](documentation/wireframes/mobile/mobile_my_bookings.png)
+
+* Tablet
+
+![My Bookings Page Tablet Wireframe](documentation/wireframes/tablet/tablet_my_bookings.png)
+
+* Desktop
+
+![My Bookings Page Desktop Wireframe](documentation/wireframes/desktop/desktop_my_bookings.png)
+</details>
+
+<details>
+<summary>Edit Booking Page</summary>
+
+* Mobile
+
+![Edit Booking Page Mobile Wireframe](documentation/wireframes/mobile/mobile_edit_booking.png)
+
+* Tablet
+
+![Edit Booking Page Tablet Wireframe](documentation/wireframes/tablet/tablet_edit_booking.png)
+
+* Desktop
+
+![Edit Booking Page Desktop Wireframe](documentation/wireframes/desktop/desktop_edit_booking.png)
+</details>
+
+<details>
+<summary>Delete Booking Page</summary>
+
+* Mobile
+
+![Delete Booking Page Mobile Wireframe](documentation/wireframes/mobile/mobile_delete_booking.png)
+
+* Tablet
+
+![Delete Booking Page Tablet Wireframe](documentation/wireframes/tablet/tablet_delete_booking.png)
+
+* Desktop
+
+![Delete Booking Page Desktop Wireframe](documentation/wireframes/desktop/desktop_delete_booking.png)
+</details>
+
+<details>
+<summary>Login/Sign Up Pages</summary>
+
+* Login
+
+![Login Page Mobile Wireframe](documentation/wireframes/mobile/mobile_login_page.png)
+
+* Sign Up
+
+![Sign Up Page Mobile Wireframe](documentation/wireframes/mobile/mobile_signup_page.png)
+
+</details>
 
 ### Database Scheme
 ![Database Scheme](documentation/images/PP4_ERD.png)
