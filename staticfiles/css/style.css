@@ -9,12 +9,16 @@ main {
     flex: 1 0 auto;
 }
 
+h1 {
+    text-align: center;
+}
+
 .navbar {
     padding-left: 1rem;
 }
 
-.dropdown-item {
-    width: 50%;
+.navbar li {
+    width: 80%;
 }
 
 .hero-image {
@@ -30,7 +34,11 @@ main {
     font-size: 1rem;
 }
 
+.helptext ul { list-style-type: none; }
+
 #social-networks {
     list-style-type: none;
     font-size: 1.5rem;
 }
+
+

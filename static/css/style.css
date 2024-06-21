@@ -34,6 +34,8 @@ h1 {
     font-size: 1rem;
 }
 
+.helptext ul { list-style-type: none; }
+
 #social-networks {
     list-style-type: none;
     font-size: 1.5rem;
