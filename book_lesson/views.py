@@ -7,6 +7,7 @@ import datetime
 from .models import Booking, Horse
 from .forms import BookingForm
 
+
 # Create your views here.
 def home(request):
     """
@@ -28,18 +29,18 @@ def booking(request):
         if booking_form.is_valid():
             booking = booking_form.save(commit=False)
             booking_exists = Booking.objects.filter(
-                lesson_date= booking.lesson_date,
-                lesson_time= booking.lesson_time,
-                horse= booking.horse
+                lesson_date=booking.lesson_date,
+                lesson_time=booking.lesson_time,
+                horse=booking.horse
             )
             booking_time_exists = Booking.objects.filter(
-                user= request.user,
-                lesson_date= booking.lesson_date,
-                lesson_time= booking.lesson_time
+                user=request.user,
+                lesson_date=booking.lesson_date,
+                lesson_time=booking.lesson_time
             )
             booking_full = Booking.objects.filter(
-                lesson_date= booking.lesson_date,
-                lesson_time= booking.lesson_time
+                lesson_date=booking.lesson_date,
+                lesson_time=booking.lesson_time
             )
             today = datetime.date.today()
 
@@ -106,17 +107,17 @@ def edit_booking(request, booking_id):
         form = BookingForm(request.POST, instance=booking)
         if form.is_valid():
             booking_exists = Booking.objects.filter(
-                lesson_date= booking.lesson_date,
-                lesson_time= booking.lesson_time,
-                horse= booking.horse
+                lesson_date=booking.lesson_date,
+                lesson_time=booking.lesson_time,
+                horse=booking.horse
             )
             booking_time_exists = Booking.objects.filter(
-                lesson_date= booking.lesson_date,
-                lesson_time= booking.lesson_time
+                lesson_date=booking.lesson_date,
+                lesson_time=booking.lesson_time
             )
             booking_full = Booking.objects.filter(
-                lesson_date= booking.lesson_date,
-                lesson_time= booking.lesson_time
+                lesson_date=booking.lesson_date,
+                lesson_time=booking.lesson_time
             )
             today = datetime.date.today()
 
