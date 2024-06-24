@@ -20,14 +20,17 @@ def home(request):
 
 
 @login_required
-def booking(request):
+def booking(request, horse_id):
     """
     Displays the Booking Form.
     """
+    horse = get_object_or_404(Horse, id=horse_id)
+
     if request.method == "POST":
         booking_form = BookingForm(request.POST)
         if booking_form.is_valid():
             booking = booking_form.save(commit=False)
+            booking.horse = horse
             booking_exists = Booking.objects.filter(
                 lesson_date=booking.lesson_date,
                 lesson_time=booking.lesson_time,
@@ -62,7 +65,7 @@ def booking(request):
 
     booking_form = BookingForm()
 
-    context = {'booking_form': booking_form}
+    context = {'booking_form': booking_form, 'horse': horse}
 
     return render(request, 'make_booking.html', context)
 

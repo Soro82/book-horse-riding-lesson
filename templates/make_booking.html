@@ -13,6 +13,7 @@
         <div class="col-sm-6 offset-sm-3 col-lg-4 offset-lg-4">
             <div class="card text-center">
                 <div class="col-md-10 offset-md-1">
+                    <h3 class="text-center mt-2 mb-2">Horse Name: {{ horse.name }}</h3>
                     <form method="post">
                         {{ booking_form | crispy }}
                         {% csrf_token %}
