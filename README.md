@@ -329,10 +329,41 @@ The booking form and edit_booking forms are validated to ensure:
 
 ### Existing Features
 
+#### Home Page(Logged Out)
+
+#### Home Page(Logged In)
+
+#### Navbar(Logged Out)
+
+#### Navbar(Logged In)
+
+#### Footer
+
+#### Horses Page(Logged Out)
+
+#### Horses Page(Logged In)
+
+#### Make Booking Page
+
+#### My Bookings Page
+
+#### Edit Booking Page
+
+#### Delete Booking Page
+
+#### Signup Page
+
+#### Login Page
+
+#### Logout Page
+
 
 
 
 ### Future Features
+* Allow users to add reviews for each horse.
+* Only allow lessons to be booked from Monday to Saturday.
+* Allow instructors to login as admin users and assign horses to each booking.
 
 
 
@@ -436,6 +467,7 @@ Forking is a way to make a copy of the original repository on your GitHub accoun
 * I used https://getbootstrap.com/docs/5.3 to learn more about Bootstrap.
 * I used https://www.w3schools.com to simplify some of the documentation in Django and Bootstrap.
 
-### Acknowledgments 
+### Acknowledgments
+I would like to thank my mentor Mitko Bachvarov for his support and feedback throughout my project.
 
 [Back to Top](#book-horse-riding-lessons)
