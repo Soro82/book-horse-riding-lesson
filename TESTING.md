@@ -1,5 +1,7 @@
 ## Testing
 
+Click [here](README.md) to return to the readme file.
+
 ### Features Testing
 
 | Location | Test | Expected Result | Result |

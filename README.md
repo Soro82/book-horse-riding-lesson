@@ -20,6 +20,7 @@ The Horse Riding Lessons booking system allows users to book horse riding lesson
 ### [Design](#design-1)
 * [Color Scheme](#color-scheme)
 * [Horse Images](#horse-images)
+* [Typography](#typography)
 * [Wireframes](#wireframes)
 * [Database Scheme](#database-scheme)
 ### [Features](#features-1)
@@ -172,6 +173,9 @@ Each user has the ability to:
 ### Horse Images
 All the images of the horses were downloaded from https://www.pexels.com
 The images were resized and converted to .webp using https://www.resizepixel.com
+
+### Typography
+I picked the Roboto font family for my website because it's easy to read and has a warm and welcoming look.
 
 ### Wireframes
 <details>
@@ -367,7 +371,7 @@ The booking form and edit_booking forms are validated to ensure:
 
 ## Testing
 
-[TESTING.md](TESTING.md)
+Click [here](TESTING.md) to open the Testing section.
 
 ## Deployment and Local Development
 
