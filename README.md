@@ -474,6 +474,9 @@ Forking is a way to make a copy of the original repository on your GitHub accoun
 ### Fixed Bugs
 * The validation to check if a booking time exists for a user was preventing other users from making a booking at the same time. I added a check to see if the time was booked for the user making the request.
 
+### Unfixed Bugs
+* If a user wants to change a horse when updating a booking they have to delete the booking. Otherwise they can make multiple bookings for the same time.
+
 ## References
 
 ### Credits
