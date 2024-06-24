@@ -141,7 +141,7 @@ def edit_booking(request, booking_id):
                 return redirect('bookings')
 
     context = {
-        'form': form
+        'form': form, 'booking': booking
         }
 
     return render(request, 'edit_booking.html', context)
