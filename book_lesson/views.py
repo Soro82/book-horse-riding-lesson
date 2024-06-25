@@ -62,6 +62,7 @@ def booking(request, horse_id):
                     request, messages.SUCCESS,
                     'Your booking was successful'
                 )
+                return redirect('bookings')
 
     booking_form = BookingForm()
 
