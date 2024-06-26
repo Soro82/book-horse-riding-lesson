@@ -1,5 +1,6 @@
 from django.urls import path
-from book_lesson.views import home, booking, horses, bookings, edit_booking, delete_booking
+from book_lesson.views import home, booking, horses, bookings
+from book_lesson.views import edit_booking, delete_booking
 
 urlpatterns = [
     path('', home, name='home'),

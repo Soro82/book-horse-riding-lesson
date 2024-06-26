@@ -2,6 +2,7 @@ from django.db import models
 from cloudinary.models import CloudinaryField
 from django.contrib.auth.models import User
 
+
 # Create your models here.
 class Horse(models.Model):
     """
@@ -23,7 +24,7 @@ class Booking(models.Model):
     EXPERIENCE_LEVEL = ((0, "Beginner"), (1, "Intermediate"), (2, "Advanced"))
     INDOOR_OUTDOOR = ((0, "Indoor"), (1, "Outdoor"))
     LESSON_TIMES = ((0, "10:00"), (1, "11:00"), (2, "12:00"), (3, "14:00"),
-     (4, "15:00"), (5, "16:00"), (6, "17:00"))
+                    (4, "15:00"), (5, "16:00"), (6, "17:00"))
 
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     lesson_date = models.DateField()
@@ -32,13 +33,8 @@ class Booking(models.Model):
     experience = models.IntegerField(choices=EXPERIENCE_LEVEL, default=0)
     horse = models.ForeignKey(Horse, on_delete=models.CASCADE)
 
-
     class Meta:
         ordering = ["-lesson_date"]
 
-
     def __str__(self):
-        return f"Booking {self.id} for {self.user.username} on {self.lesson_date}"
-
-
-        
+        return f"Booking for {self.user.username} on {self.lesson_date}"
