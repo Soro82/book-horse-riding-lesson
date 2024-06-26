@@ -44,11 +44,21 @@ h1 {
     font-size: 1rem;
 }
 
-.helptext ul { list-style-type: none; }
+#signup_form ul { 
+    list-style-type: none; 
+    display: none;
+}
 
 #social-networks {
     list-style-type: none;
     font-size: 1.5rem;
 }
+
+/* @media (max-width:576px) {
+    #booking_form {
+        width: 80%;
+        justify-content: center;
+    }
+} */
 
 
