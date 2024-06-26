@@ -8,10 +8,11 @@ from .models import Booking, Horse
 from .forms import BookingForm
 
 
-# Create your views here.
 def home(request):
     """
     View to dispaly the Homepage.
+    The top_horses variable is used to get the first 3 horses
+    in the Horse model and is sent to index.html.
     """
     top_horses = Horse.objects.all()[:3]
     context = {'top_horses': top_horses}
@@ -23,6 +24,12 @@ def home(request):
 def booking(request, horse_id):
     """
     Displays the Booking Form.
+    The user's input is validated to check if they have a
+    lesson previously booked for the same time, if the horse
+    was previously booked for the same time, if the lesson
+    is full and if the date picked is current.
+    If everything is valid then the information is saved
+    to the Booking model.
     """
     horse = get_object_or_404(Horse, id=horse_id)
 
