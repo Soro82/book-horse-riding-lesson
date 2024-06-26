@@ -18,9 +18,9 @@
                         {{ form | crispy }}
                         {% csrf_token %}
                         <div class="card-footer">
-                            <button class="btn btn-success"
+                            <button class="btn btn-success mb-2"
                             type="submit">Update Booking</button>
-                            <a href="{% url 'bookings' %}" class="btn btn-secondary">Cancel</a>
+                            <a href="{% url 'bookings' %}" class="btn btn-secondary mb-2">Cancel</a>
                         </div>
                     </form>
                 </div>
