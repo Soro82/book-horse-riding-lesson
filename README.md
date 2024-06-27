@@ -13,10 +13,10 @@ The Horse Riding Lessons booking system allows users to book horse riding lesson
 ### [User Experience](#user-experience-ux)
 * [Project Goals](#project-goals)
 * [Target Audience](#target-audience)
-* [New user](#first-time-user)
+* [New user](#new-user)
 * [Registered user](#registered-user)
 * [Admin user](#admin-user)
-### [Agile Methodology](#agile-methodology)
+### [Agile Methodology](#agile-methodology-1)
 * [Epics](#epics)
 * [User Stories](#user-stories)
 ### [Design](#design-1)
@@ -35,9 +35,9 @@ The Horse Riding Lessons booking system allows users to book horse riding lesson
 * [Frameworks Used](#frameworks-used)
 * [Programs Used](#programs-used)
 ### [Testing](#testing-1)
-### [Deployment and Local developement](#deployment-and-local-developement-1)
+### [Deployment and Local developement](#deployment-and-local-development)
 * [Heroku Deployment](#heroku-deployment)
-* [Local Developement](#local-developement)
+* [Local Developement](#local-development)
 * [ElephantSQL Database](#elephantsql-database)
 ### [References](#references-1)
 * [Credits](#credits)
@@ -332,6 +332,8 @@ The booking form and edit_booking forms are validated to ensure:
 ### Existing Features
 
 #### Home Page(Logged Out)
+
+![Home Page(Logged Out)](documentation/screenshots/desktop/navbar_logged_out.png)
 
 #### Home Page(Logged In)
 

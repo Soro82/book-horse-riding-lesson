@@ -4,10 +4,10 @@ Click [here](README.md) to return to the readme file.
 
 ## Table of Contents
 
-### [Code Validation](#code-validation)
-### [Lighthouse Testing](#lighthouse-testing)
-### [Manual Testing](#manual-testing)
-### [Bugs](#bugs)
+### [Code Validation](#code-validation-1)
+### [Lighthouse Testing](#lighthouse-testing-1)
+### [Manual Testing](#manual-testing-1)
+### [Bugs](#bugs-1)
 
 ### Code Validation
 
