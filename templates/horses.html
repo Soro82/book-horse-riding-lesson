@@ -12,10 +12,10 @@
         <div class="col-md-4 col-xl-3">
             <div class="card">
                 <img src="{{ horse.image.url }}" class="card-img-top" alt="A picture of a horse.">
-                <div class="card-body">
-                    <h3>Name: {{ horse.name }}</h3>
-                    <h3>Color: {{ horse.color }}</h3>
-                    <h3>Height: {{ horse.height }}m</h3>
+                <div class="card-body text-center">
+                    <h5>Name: {{ horse.name }}</h5>
+                    <h5>Color: {{ horse.color }}</h5>
+                    <h5>Height: {{ horse.height }}m</h5>
                 </div>
                 <div class="card-footer d-flex justify-content-center">
                     {% if user.is_authenticated %}
