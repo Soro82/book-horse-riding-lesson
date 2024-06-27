@@ -2,6 +2,45 @@
 
 Click [here](README.md) to return to the readme file.
 
+### Code Validation
+
+#### HTML Validation
+
+<details>
+<summary>Home Page</summary>
+
+![Home Page HTML Validation](documentation/testing/html/home_page.png)
+
+</details>
+
+<details>
+<summary>Horses Page</summary>
+
+![Horses Page HTML Validation](documentation/testing/html/horses_page.png)
+
+</details>
+
+<details>
+<summary>Horses Page Logged In</summary>
+
+![Horses Page Logged In HTML Validation](documentation/testing/html/horses_page_logged_in.png)
+
+</details>
+
+<details>
+<summary>Login Page</summary>
+
+![Login Page HTML Validation](documentation/testing/html/login_page.png)
+
+</details>
+
+<details>
+<summary>Make Booking Page</summary>
+
+![Make Booking Page HTML Validation](documentation/testing/html/make_booking.png)
+
+</details>
+
 ### Features Testing
 
 | Location | Test | Expected Result | Result |
