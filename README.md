@@ -361,7 +361,7 @@ The booking form and edit_booking forms are validated to ensure:
 
 #### Logout Page
 
-
+#### Feedback Messages
 
 
 ### Future Features
