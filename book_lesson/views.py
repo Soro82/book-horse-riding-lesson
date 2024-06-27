@@ -23,7 +23,7 @@ def home(request):
 @login_required
 def booking(request, horse_id):
     """
-    Displays the Booking Form.
+    View to display the Booking Form.
     The user's input is validated to check if they have a
     lesson previously booked for the same time, if the horse
     was previously booked for the same time, if the lesson
@@ -85,6 +85,7 @@ def booking(request, horse_id):
 def horses(request):
     """
     View to display all horses available on a seperate page.
+    The horses are displayed 3 per page using pagination.
     """
     horses = Horse.objects.all()
     paginator = Paginator(horses, 3)
@@ -98,7 +99,9 @@ def horses(request):
 
 def bookings(request):
     """
-    View to display list of bookings.
+    View to display list of bookings for the user that
+    is currently logged in.
+    The bookings are displayed 3 per page using pagination.
     """
     order = Booking.objects.filter(user=request.user)
     bookings = order.order_by("lesson_date", "lesson_time")
@@ -114,7 +117,13 @@ def bookings(request):
 @login_required
 def edit_booking(request, booking_id):
     """
-    View for the user to edit a booking.
+    View to display the Edit Booking Form.
+    The user's input is validated to check if they have a
+    lesson previously booked for the same time, if the horse
+    was previously booked for the same time, if the lesson
+    is full and if the date picked is current.
+    If everything is valid then the Booking information in the
+    is updated Booking model.
     """
     booking = get_object_or_404(Booking, id=booking_id)
 

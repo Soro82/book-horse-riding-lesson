@@ -4,6 +4,10 @@ from .models import Booking
 
 
 class DateInput(forms.DateInput):
+    """
+    Allows the user to choose a date from a calender
+    in the Booking Form.
+    """
     input_type = "date"
 
 

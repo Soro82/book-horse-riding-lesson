@@ -6,7 +6,8 @@ from django.contrib.auth.models import User
 # Create your models here.
 class Horse(models.Model):
     """
-    Details of each horse available.
+    Details of each horse available. Their image is
+    stored using Cloudinary.
     """
     name = models.CharField(max_length=20)
     color = models.CharField(max_length=20)
@@ -19,7 +20,10 @@ class Horse(models.Model):
 
 class Booking(models.Model):
     """
-    Book a horse riding lesson.
+    Model to store all the information for each booking.
+    The bookings are displayed in the admin panel with the
+    username and lesson date of each booking and ordered by
+    the lesson date.
     """
     EXPERIENCE_LEVEL = ((0, "Beginner"), (1, "Intermediate"), (2, "Advanced"))
     INDOOR_OUTDOOR = ((0, "Indoor"), (1, "Outdoor"))
