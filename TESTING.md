@@ -2,6 +2,13 @@
 
 Click [here](README.md) to return to the readme file.
 
+## Table of Contents
+
+### [Code Validation](#code-validation)
+### [Lighthouse Testing](#lighthouse-testing)
+### [Manual Testing](#manual-testing)
+### [Bugs](#bugs)
+
 ### Code Validation
 
 #### HTML Validation
@@ -41,7 +48,185 @@ Click [here](README.md) to return to the readme file.
 
 </details>
 
-### Features Testing
+<details>
+<summary>My Booking Page</summary>
+
+![My Booking Page HTML Validation](documentation/testing/html/my_bookings.png)
+
+</details>
+
+<details>
+<summary>Edit Booking Page</summary>
+
+![Edit Booking Page HTML Validation](documentation/testing/html/edit_booking.png)
+
+</details>
+
+<details>
+<summary>Delete Booking Page</summary>
+
+![Delete Booking Page HTML Validation](documentation/testing/html/delete_booking.png)
+
+</details>
+
+<details>
+<summary>404 Error Page</summary>
+
+![404 Error Page HTML Validation](documentation/testing/html/404_page.png)
+
+</details>
+
+<details>
+<summary>500 Error Page</summary>
+
+![500 Error Page HTML Validation](documentation/testing/html/500_page.png)
+
+</details>
+
+#### Python Validation
+
+* book_lesson app
+
+<details>
+<summary>admin.py</summary>
+
+![admin.py Python Validation](documentation/testing/python/admin_validation.png)
+
+</details>
+
+<details>
+<summary>forms.py</summary>
+
+![forms.py Python Validation](documentation/testing/python/forms_validation.png)
+
+</details>
+
+<details>
+<summary>models.py</summary>
+
+![models.py Python Validation](documentation/testing/python/models_validation.png)
+
+</details>
+
+<details>
+<summary>urls.py</summary>
+
+![urls.py Python Validation](documentation/testing/python/urls_validation.png)
+
+</details>
+
+<details>
+<summary>views.py</summary>
+
+![views.py Python Validation](documentation/testing/python/views_validation.png)
+
+</details>
+
+* horse_riding_lessons
+
+<details>
+<summary>settings.py</summary>
+
+![settings.py Python Validation](documentation/testing/python/settings_validation.png)
+
+</details>
+
+<details>
+<summary>urls.py</summary>
+
+![urls.py Python Validation](documentation/testing/python/project_urls_validation.png)
+
+</details>
+
+#### CSS Validation
+
+<details>
+<summary>style.css</summary>
+
+![style.css CSS Validation](documentation/testing/other/css_validation.png)
+
+</details>
+
+#### JavaScript Validation
+
+<details>
+<summary>script.js</summary>
+
+![script.js JavaScript Validation](documentation/testing/other/javascript_validation.png)
+
+</details>
+
+#### WAVE Validation
+
+<details>
+<summary>WAVE Validation</summary>
+
+![WAVE Validation](documentation/testing/other/wave_validation.png)
+
+</details>
+
+### Lighthouse Testing
+
+<details>
+<summary>Home Page</summary>
+
+![Home Page Lighthouse Testing](documentation/testing/lighthouse/home_page.png)
+
+</details>
+
+<details>
+<summary>Horses Page</summary>
+
+![Horses Page Lighthouse Testing](documentation/testing/lighthouse/horses_page.png)
+
+</details>
+
+<details>
+<summary>Sign Up Page</summary>
+
+![Sign Up Page Lighthouse Testing](documentation/testing/lighthouse/sign_up.png)
+
+</details>
+
+<details>
+<summary>Login Page</summary>
+
+![Login Page Lighthouse Testing](documentation/testing/lighthouse/sign_in.png)
+
+</details>
+
+<details>
+<summary>Make Booking Page</summary>
+
+![Make Booking Page Lighthouse Testing](documentation/testing/lighthouse/make_booking.png)
+
+</details>
+
+<details>
+<summary>My Booking Page</summary>
+
+![My Booking Page Lighthouse Testing](documentation/testing/lighthouse/my_bookings.png)
+
+</details>
+
+<details>
+<summary>Edit Booking Page</summary>
+
+![Edit Booking Page Lighthouse Testing](documentation/testing/lighthouse/edit_booking.png)
+
+</details>
+
+<details>
+<summary>Sign Out Page</summary>
+
+![Sign Out Page Lighthouse Testing](documentation/testing/lighthouse/sign_out.png)
+
+</details>
+
+
+[Back to Top](#testing)
+
+### Manual Testing
 
 | Location | Test | Expected Result | Result |
 | :------: | :--: | :-------------: | :----: |
@@ -106,6 +291,7 @@ Click [here](README.md) to return to the readme file.
 | 500 Error Page | Admin raises an exception | 500 Error Page opens | Passed |
 |  | Click on Take Me Home | Returns to Home Page | Passed |
 
+[Back to Top](#testing)
 
 ### Bugs
 
@@ -125,5 +311,3 @@ Click [here](README.md) to return to the readme file.
 
 #### Unfixed Bugs
 * There are no unfixed bugs.
-
-### Validator Testing
