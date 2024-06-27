@@ -305,9 +305,12 @@ Click [here](README.md) to return to the readme file.
 | Booking time displayed as integer | booking.get_lesson_time_display | Passed |
 | Two users unable to book the same time | Check user against request.user | Passed |
 | Navbar dropdown causing page scrollbar | Add "me-lg-4" class | Passed |
-| Insecure Requests error in console | cloudinary.config(secure = True) | Passed |
 | My Bookings in order of date but not time | Order by date and time | Passed |
+| Insecure Requests error in console | cloudinary.config(secure = True) | Passed |
 
+Image of Insecure Requests Error in Console
+
+![Insecure Requests error in console](documentation/images/console_error.png)
 
 #### Unfixed Bugs
 * There are no unfixed bugs.
