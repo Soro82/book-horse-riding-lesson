@@ -320,6 +320,56 @@ Image of Insecure Requests Error in Console
 
 ### Responsiveness
 
-##### Successfully Signed In
+#### Home Page
 
-![Successfully Signed In Message](documentation/screenshots/desktop/messages/sign_in_success.png)
+![Home Page](documentation/screenshots/desktop/home_logged_out.png)
+
+![Home Page Mobile](documentation/screenshots/mobile/home_logged_in.png)
+
+#### Navbar
+
+![Navbar](documentation/screenshots/desktop/navbar_logged_out.png)
+
+![Navbar Mobile](documentation/screenshots/mobile/navbar_logged_in.png)
+
+#### Popular Horses
+
+![Popular Horses](documentation/screenshots/desktop/popular_horses_logged_out.png)
+
+![Popular Horses Mobile](documentation/screenshots/mobile/popular_horses_logged_in.png)
+
+#### Horses Page
+
+![Horses Page](documentation/screenshots/desktop/horses_logged_out.png)
+
+![Horses Page Mobile](documentation/screenshots/mobile/horses_page.png)
+
+#### Make Booking Page
+
+![Make Booking Page](documentation/screenshots/tablet/make_booking.png)
+
+![Make Booking Page Mobile](documentation/screenshots/mobile/make_booking.png)
+
+#### My Bookings Page
+
+![My Bookings Page](documentation/screenshots/desktop/my_bookings.png)
+
+![My Bookings Page Mobile](documentation/screenshots/mobile/my_bookings.png)
+
+#### Delete Booking Page
+
+![Delete Booking Page](documentation/screenshots/desktop/delete_confirmation.png)
+
+![Delete Booking Page Mobile](documentation/screenshots/mobile/delete_booking.png)
+
+#### Login Page
+
+![Login Page](documentation/screenshots/tablet/sign_in.png)
+
+![Login Page Mobile](documentation/screenshots/mobile/login.png)
+
+#### Footer
+
+![Footer](documentation/screenshots/desktop/footer.png)
+
+![Footer Mobile](documentation/screenshots/mobile/footer.png)

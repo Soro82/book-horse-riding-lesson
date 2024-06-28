@@ -349,13 +349,13 @@ The booking form and edit_booking forms are validated to ensure:
 
 ![Navbar(Logged In)](documentation/screenshots/desktop/navbar_logged_in.png)
 
-#### Popular Horses Page(Logged Out)
+#### Popular Horses(Logged Out)
 
-![Popular Horses Page(Logged Out)](documentation/screenshots/desktop/popular_horses_logged_out.png)
+![Popular Horses(Logged Out)](documentation/screenshots/desktop/popular_horses_logged_out.png)
 
-#### Popular Horses Page(Logged In)
+#### Popular Horses(Logged In)
 
-![Popular Horses Page(Logged In)](documentation/screenshots/desktop/popular_horses_logged_in.png)
+![Popular Horses(Logged In)](documentation/screenshots/desktop/popular_horses_logged_in.png)
 
 #### Horses Page(Logged Out)
 
