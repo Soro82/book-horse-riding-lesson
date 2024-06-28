@@ -292,6 +292,9 @@ Each user has the ability to:
 </details>
 
 ### Database Scheme
+
+* [Draw.io](https://draw.io) was used to create the database scheme.
+
 ![Database Scheme](documentation/images/PP4_ERD.png)
 
 [Back to Top](#book-horse-riding-lessons)
@@ -399,27 +402,27 @@ The booking form and edit_booking forms are validated to ensure:
 
 #### Feedback Messages
 
-##### Successfully Signed In
+* Successfully Signed In
 
 ![Successfully Signed In Message](documentation/screenshots/desktop/messages/sign_in_success.png)
 
-##### Update Successful
+* Update Successful
 
 ![Update Successful Message](documentation/screenshots/desktop/messages/update_successful.png)
 
-##### Booking Deleted Successfully
+* Booking Deleted Successfully
 
 ![Booking Deleted Successfully Message](documentation/screenshots/desktop/messages/delete_successful.png)
 
-##### Horse Booked
+* Horse Booked
 
 ![Horse Booked Message](documentation/screenshots/desktop/messages/horse_booked.png)
 
-##### Lesson Time Booked
+* Lesson Time Booked
 
 ![Lesson Time Booked Message](documentation/screenshots/desktop/messages/lesson_time_booked.png)
 
-##### Date Not Current
+* Date Not Current
 
 ![Date Not Current Message](documentation/screenshots/desktop/messages/date_not_current.png)
 
