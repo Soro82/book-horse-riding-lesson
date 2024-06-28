@@ -333,7 +333,7 @@ Image of Insecure Requests Error in Console
 
 #### Popular Horses
 
-![Popular Horses](documentation/screenshots/desktop/popular_horses_logged_out.png)
+![Popular Horses](documentation/screenshots/desktop/popular_horses_logged_in.png)
 
 ![Popular Horses Tablet](documentation/screenshots/tablet/popular_horses.png) ![Popular Horses Mobile](documentation/screenshots/mobile/popular_horses_logged_in.png)
 
