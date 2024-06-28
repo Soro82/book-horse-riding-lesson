@@ -324,37 +324,36 @@ Image of Insecure Requests Error in Console
 
 ![Home Page](documentation/screenshots/desktop/home_logged_out.png)
 
-![Home Page Mobile](documentation/screenshots/mobile/home_logged_in.png)
-
+![Home Page Tablet](documentation/screenshots/tablet/home_page.png) ![Home Page Mobile](documentation/screenshots/mobile/home_logged_in.png)
 #### Navbar
 
 ![Navbar](documentation/screenshots/desktop/navbar_logged_out.png)
 
-![Navbar Mobile](documentation/screenshots/mobile/navbar_logged_in.png)
+![Navbar Tablet](documentation/screenshots/tablet/navbar.png) ![Navbar Mobile](documentation/screenshots/mobile/navbar.png)
 
 #### Popular Horses
 
 ![Popular Horses](documentation/screenshots/desktop/popular_horses_logged_out.png)
 
-![Popular Horses Mobile](documentation/screenshots/mobile/popular_horses_logged_in.png)
+![Popular Horses Tablet](documentation/screenshots/tablet/popular_horses.png) ![Popular Horses Mobile](documentation/screenshots/mobile/popular_horses_logged_in.png)
 
 #### Horses Page
 
 ![Horses Page](documentation/screenshots/desktop/horses_logged_out.png)
 
-![Horses Page Mobile](documentation/screenshots/mobile/horses_page.png)
+![Horses Page Tablet](documentation/screenshots/tablet/horses_page.png) ![Horses Page Mobile](documentation/screenshots/mobile/horses_page.png)
 
 #### Make Booking Page
 
 ![Make Booking Page](documentation/screenshots/tablet/make_booking.png)
 
-![Make Booking Page Mobile](documentation/screenshots/mobile/make_booking.png)
+![Make Booking Page Tablet](documentation/screenshots/tablet/make_booking.png) ![Make Booking Page Mobile](documentation/screenshots/mobile/make_booking.png)
 
 #### My Bookings Page
 
 ![My Bookings Page](documentation/screenshots/desktop/my_bookings.png)
 
-![My Bookings Page Mobile](documentation/screenshots/mobile/my_bookings.png)
+![My Bookings Page Tablet](documentation/screenshots/tablet/my_bookings.png) ![My Bookings Page Mobile](documentation/screenshots/mobile/my_bookings.png)
 
 #### Delete Booking Page
 
@@ -364,9 +363,7 @@ Image of Insecure Requests Error in Console
 
 #### Login Page
 
-![Login Page](documentation/screenshots/tablet/sign_in.png)
-
-![Login Page Mobile](documentation/screenshots/mobile/login.png)
+![Login Page](documentation/screenshots/tablet/sign_in.png) ![Login Page Mobile](documentation/screenshots/mobile/login.png)
 
 #### Footer
 
