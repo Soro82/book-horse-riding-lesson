@@ -4,7 +4,7 @@ Click [here](https://book-horse-riding-lesson-c2e71d72733b.herokuapp.com) for th
 
 ## Purpose
 
-The Horse Riding Lessons booking system allows users to book horse riding lessons. The user can set up a personal account by signing up to the site. When they are signed up they can login to their account to book a lesson. They can choose a date and time, whether they want the lesson indoor or outdoor, their level of experience and the horse they want for the lesson. When they book a lesson they can choose to edit the booking to make changes to it or they can delete the booking. There is a seperate page showing all the horse available and their details. The user can also see the three most popular horses on the Home page.
+The Horse Riding Lessons booking system allows users to book horse riding lessons. The user can set up a personal account by signing up to the site. When they are signed up they can login to their account to book a lesson. They can choose a date and time, whether they want the lesson indoor or outdoor, their level of experience and the horse they want for the lesson. When they book a lesson they can choose to edit the booking to make changes to it or they can delete the booking. There is a separate page showing all the horses available and their details. The user can also see the three most popular horses on the Home page.
 
 ![Am I Responsive view of website](documentation/testing/other/am_i_responsive.png)
 
@@ -99,11 +99,12 @@ Each user has the ability to:
 * I used agile methodology for this project as it required a lot of planning.
 * The Kanban Board was created using GitHub. The link to the board is [here](https://github.com/users/Soro82/projects/2).
 * I used six milestones for the project, one for each Epic. 
-* The milestones were helpful in tracking my progress through the project. 
-* The User Stories were divided up into three categories - must have, should have and could have. 
-* I used labels to categorise the user stories.
-* The User Story for the user to enter their age and height when registering is the only User Story incomplete. 
-* I had originally planned to add this to the website because I had intended for the admin user to assign horses to each booking. * I decided to allow the user to choose which horse they would like to book instead.
+* The milestones helped to track my progress through the project. 
+* The User Stories were divided into three categories - must have, should have and could have. 
+* I used labels to categorize the user stories.
+* The User Story for users to enter their age and height when registering is the only User Story incomplete. 
+* I had originally planned to add this to the website because I had intended for the admin user to assign horses to each booking. 
+* I decided to allow the user to choose which horse they would like to book instead.
 
 ### Epics
 
@@ -140,11 +141,11 @@ Each user has the ability to:
 
 #### Epic: User Registration
 
-* Set up account with a username, email and password
+* Set up an account with a username, email and password
 * Enter my age and height when registering
 * See a message stating that I am logged in
 * Have a logout button visible
-* See a confirmation message when i logout
+* See a confirmation message when I logout
 
 #### Epic: Book a Lesson
 
@@ -153,13 +154,13 @@ Each user has the ability to:
 * Choose whether I want indoor or outdoor
 * Choose my level of experience from a list of options
 * See a list of possible lesson times
-* See a confirmation message when i make a booking
+* See a confirmation message when I make a booking
 
 #### Epic: Add a Horses Page
 
 * See pictures of each horse on a page
 * See details of each horse under their picture
-* Have a "Book Now" button available under each horse in the Horses page
+* Have a "Book Now" button available under each horse on the Horses page
 
 [Back to Top](#book-horse-riding-lessons)
 
@@ -167,17 +168,18 @@ Each user has the ability to:
 
 ### Color Scheme
 * I wanted a color palette that was warm and welcoming but also energetic.
-* I did a google search for the top 50 website color schemes but I couldn't find any that I like for this website.
+* I did a Google search for the top 50 website color schemes but I couldn't find any that I like for this website.
 * I tried a few combinations myself before settling on this one:
 
 ![Color Palette](documentation/images/PP4_color_palette.png)
 
 ### Horse Images
-All the images of the horses were downloaded from https://www.pexels.com
-The images were resized and converted to .webp using https://www.resizepixel.com
+* All the images of the horses were downloaded from https://www.pexels.com
+* The images were resized and converted to .webp using https://www.resizepixel.com
 
 ### Typography
-I picked the Roboto font family for my website because it's easy to read and has a warm and welcoming look.
+* I picked the Roboto font family for my website because it's easy to read and has a warm and welcoming look.
+* I import it from [Google Fonts](https://fonts.google.com/)
 
 ### Wireframes
 <details>
@@ -314,7 +316,7 @@ I picked the Roboto font family for my website because it's easy to read and has
 
 #### The login_required Decorator
 * The login_required decorator is on all views that require the user to be logged in.
-* In this website it was used on the booking, edit_booking and delete_booking views. It ensures that only authenticated users can access these views.
+* For this website it was used on the booking, edit_booking and delete_booking views. It ensures that only authenticated users can access these views.
 
 #### Custom Error Pages
 * The 404 and 500 Error Pages are used to allow the user to return to the website’s home page.
@@ -399,7 +401,7 @@ The booking form and edit_booking forms are validated to ensure:
 * W3C CSS Validation Service - to validate the CSS code.
 * JSHint - to validate the JavaScript code.
 * CI Pep8 Python Validator - to validate the Python code.
-* Am I Responsive - to test the website's resonsiveness.
+* Am I Responsive - to test the website's responsiveness.
 
 
 [Back to Top](#book-horse-riding-lessons)
