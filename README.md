@@ -335,36 +335,93 @@ The booking form and edit_booking forms are validated to ensure:
 
 #### Home Page(Logged Out)
 
-![Home Page(Logged Out)](documentation/screenshots/desktop/navbar_logged_out.png)
+![Home Page(Logged Out)](documentation/screenshots/desktop/home_logged_out.png)
 
 #### Home Page(Logged In)
 
+![Home Page(Logged In)](documentation/screenshots/desktop/home_logged_in.png)
+
 #### Navbar(Logged Out)
+
+![Navbar(Logged Out)](documentation/screenshots/desktop/navbar_logged_out.png)
 
 #### Navbar(Logged In)
 
-#### Footer
+![Navbar(Logged In)](documentation/screenshots/desktop/navbar_logged_in.png)
+
+#### Popular Horses Page(Logged Out)
+
+![Popular Horses Page(Logged Out)](documentation/screenshots/desktop/popular_horses_logged_out.png)
+
+#### Popular Horses Page(Logged In)
+
+![Popular Horses Page(Logged In)](documentation/screenshots/desktop/popular_horses_logged_in.png)
 
 #### Horses Page(Logged Out)
 
+![Horses Page(Logged Out)](documentation/screenshots/desktop/horses_logged_out.png)
+
 #### Horses Page(Logged In)
+
+![Horses Page(Logged In)](documentation/screenshots/desktop/horses_logged_in.png)
 
 #### Make Booking Page
 
+![Make Booking Page](documentation/screenshots/tablet/make_booking.png)
+
 #### My Bookings Page
+
+![My Bookings Page](documentation/screenshots/desktop/my_bookings.png)
 
 #### Edit Booking Page
 
+![Edit Booking Page](documentation/screenshots/desktop/edit_booking.png)
+
 #### Delete Booking Page
+
+![Delete Booking Page](documentation/screenshots/desktop/delete_confirmation.png)
 
 #### Signup Page
 
+![Signup Page](documentation/screenshots/tablet/signup.png)
+
 #### Login Page
+
+![Login Page](documentation/screenshots/tablet/sign_in.png)
 
 #### Logout Page
 
+![Logout Page](documentation/screenshots/tablet/sign_out.png)
+
+#### Footer
+
+![Footer](documentation/screenshots/desktop/footer.png)
+
 #### Feedback Messages
 
+##### Successfully Signed In
+
+![Successfully Signed In Message](documentation/screenshots/desktop/messages/sign_in_success.png)
+
+##### Update Successful
+
+![Update Successful Message](documentation/screenshots/desktop/messages/update_successful.png)
+
+##### Booking Deleted Successfully
+
+![Booking Deleted Successfully Message](documentation/screenshots/desktop/messages/delete_successful.png)
+
+##### Horse Booked
+
+![Horse Booked Message](documentation/screenshots/desktop/messages/horse_booked.png)
+
+##### Lesson Time Booked
+
+![Lesson Time Booked Message](documentation/screenshots/desktop/messages/lesson_time_booked.png)
+
+##### Date Not Current
+
+![Date Not Current Message](documentation/screenshots/desktop/messages/date_not_current.png)
 
 ### Future Features
 * Allow users to add reviews for each horse.

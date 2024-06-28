@@ -8,6 +8,7 @@ Click [here](README.md) to return to the readme file.
 ### [Lighthouse Testing](#lighthouse-testing-1)
 ### [Manual Testing](#manual-testing-1)
 ### [Bugs](#bugs-1)
+### [Responsiveness](#responsiveness-1)
 
 ### Code Validation
 
@@ -314,3 +315,11 @@ Image of Insecure Requests Error in Console
 
 #### Unfixed Bugs
 * There are no unfixed bugs.
+
+[Back to Top](#testing)
+
+### Responsiveness
+
+##### Successfully Signed In
+
+![Successfully Signed In Message](documentation/screenshots/desktop/messages/sign_in_success.png)
