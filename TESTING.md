@@ -345,7 +345,7 @@ Image of Insecure Requests Error in Console
 
 #### Make Booking Page
 
-![Make Booking Page](documentation/screenshots/tablet/make_booking.png)
+![Make Booking Page Desktop](documentation/screenshots/desktop/make_booking.png)
 
 ![Make Booking Page Tablet](documentation/screenshots/tablet/make_booking.png) ![Make Booking Page Mobile](documentation/screenshots/mobile/make_booking.png)
 
@@ -359,11 +359,13 @@ Image of Insecure Requests Error in Console
 
 ![Delete Booking Page](documentation/screenshots/desktop/delete_confirmation.png)
 
-![Delete Booking Page Mobile](documentation/screenshots/mobile/delete_booking.png)
+![Delete Booking Page Tablet](documentation/screenshots/tablet/delete_booking.png) ![Delete Booking Page Mobile](documentation/screenshots/mobile/delete_booking.png)
 
 #### Login Page
 
-![Login Page](documentation/screenshots/tablet/sign_in.png) ![Login Page Mobile](documentation/screenshots/mobile/login.png)
+![Login Page Desktop](documentation/screenshots/desktop/login.png)
+
+![Login Page Tablet](documentation/screenshots/tablet/sign_in.png) ![Login Page Mobile](documentation/screenshots/mobile/login.png)
 
 #### Footer
 
