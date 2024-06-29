@@ -338,6 +338,10 @@ The booking form and edit_booking forms are validated to ensure:
 
 #### Home Page(Logged Out)
 
+* The Home page has a hero image of a person during an indoor horse riding lesson.
+* Below this is a table showing the available times for lessons.
+* At the bottom is the three most popular horses to book a lesson with.
+
 ![Home Page(Logged Out)](documentation/screenshots/desktop/home_logged_out.png)
 
 #### Home Page(Logged In)
@@ -346,9 +350,16 @@ The booking form and edit_booking forms are validated to ensure:
 
 #### Navbar(Logged Out)
 
+* The Navbar contains the website title which is also a link to the home page.
+* The links to "Home" and "Horses" are always available logged in and logged out users.
+* When the user is logged out the links to "Login" and "Signup" are available.
+
 ![Navbar(Logged Out)](documentation/screenshots/desktop/navbar_logged_out.png)
 
 #### Navbar(Logged In)
+
+* When the user is logged in the "Login" and "Signup" links change to the user's name as a dropdown menu.
+* Inside the dropdown menu are the links "My Bookings", "Make Booking" and "Logout".
 
 ![Navbar(Logged In)](documentation/screenshots/desktop/navbar_logged_in.png)
 
