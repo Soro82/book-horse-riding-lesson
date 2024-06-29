@@ -360,38 +360,82 @@ The booking form and edit_booking forms are validated to ensure:
 
 * When the user is logged in the "Login" and "Signup" links change to the user's name as a dropdown menu.
 * Inside the dropdown menu are the links "My Bookings", "Make Booking" and "Logout".
+* The "My Bookings" link opens the "My Bookings Page".
+* The "Make Booking" link opens the "Horses Page" to allow the user to choose a horse to book a lesson for.
+* The "Logout" link opens the "Logout Page".
 
 ![Navbar(Logged In)](documentation/screenshots/desktop/navbar_logged_in.png)
 
 #### Popular Horses(Logged Out)
 
+* When the user is logged out there is a "Login" button under each of the Popular Horses.
+* When clicked the button will open the "Login" page.
+
 ![Popular Horses(Logged Out)](documentation/screenshots/desktop/popular_horses_logged_out.png)
 
 #### Popular Horses(Logged In)
+
+* When the user is logged in the "Login" button changes to a "Book Now" button.
+* When clicked the button will open the "Make Booking" page allowing the user to book a lesson with the horse selected.
 
 ![Popular Horses(Logged In)](documentation/screenshots/desktop/popular_horses_logged_in.png)
 
 #### Horses Page(Logged Out)
 
+* There are six horses to choose from.
+* The first page has three horses with a "Next" button underneath.
+* The user can click on the "Next" button to see the last three horses.
+* When the user is on the second page of horses there is a "Prev" button underneath to bring them back to the first page.
+* When the user is logged out there is a "Login" button under each of the Horses.
+* When clicked the button will open the "Login" page.
+
 ![Horses Page(Logged Out)](documentation/screenshots/desktop/horses_logged_out.png)
 
 #### Horses Page(Logged In)
+
+* When the user is logged in the "Login" button changes to a "Book Now" button.
+* When clicked the button will open the "Make Booking" page allowing the user to book a lesson with the horse selected.
 
 ![Horses Page(Logged In)](documentation/screenshots/desktop/horses_logged_in.png)
 
 #### Make Booking Page
 
+* The "Make Booking Page" displays the form to make a booking.
+* The name of the horse chosen by the user is displayed at the top of the form.
+* Below are four input fields for the user to choose from.
+* The first is the date they wish to book the lesson for.
+* The user must click on the calender icon which opens a calender allowing the user to choose a date.
+* This field is validated to ensure the user does not choose a previous date.
+* The next three input fields are dropdown menus allowing the user to choose from a specific list.
+* The user can choose the lesson time, indoor or outdoor and their level of experience.
+
 ![Make Booking Page](documentation/screenshots/tablet/make_booking.png)
 
 #### My Bookings Page
+
+* All the bookings made by the logged in user are displayed here.
+* If the user has not made a booking, a message is displayed informing them of this.
+* There are two buttons under each booking, "Edit" and "Delete".
+* The "Edit" button opens the "edit booking page" allowing the user to make changes to their bookings.
+* The "Delete" button opens the "delete booking page".
 
 ![My Bookings Page](documentation/screenshots/desktop/my_bookings.png)
 
 #### Edit Booking Page
 
+* The "Edit Booking Page" has a form similar to the "make booking" form.
+* The user can change any of the four input field values and click on the "Update Booking" button.
+* This will update the details of their booking in the database.
+* The "Cancel" button allows the user to return to the "My Bookings Page".
+
 ![Edit Booking Page](documentation/screenshots/desktop/edit_booking.png)
 
 #### Delete Booking Page
+
+* A message is displayed to the user asking them if they are sure they want to delete this booking.
+* Underneath are two buttons, "Confirm Delete" and "Cancel".
+* The "Confirm Delete" button will delete the booking from the database.
+* The "Cancel" button will return the user to the "My Bookings Page".
 
 ![Delete Booking Page](documentation/screenshots/desktop/delete_confirmation.png)
 
