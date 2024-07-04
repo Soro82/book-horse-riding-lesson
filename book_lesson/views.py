@@ -134,11 +134,15 @@ def edit_booking(request, booking_id):
             booking_exists = Booking.objects.filter(
                 lesson_date=booking.lesson_date,
                 lesson_time=booking.lesson_time,
-                horse=booking.horse
+                horse=booking.horse,
+                location=booking.location,
+                experience=booking.experience
             )
             booking_time_exists = Booking.objects.filter(
                 lesson_date=booking.lesson_date,
-                lesson_time=booking.lesson_time
+                lesson_time=booking.lesson_time,
+                location=booking.location,
+                experience=booking.experience
             )
             booking_full = Booking.objects.filter(
                 lesson_date=booking.lesson_date,
