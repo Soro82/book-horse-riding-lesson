@@ -21,7 +21,6 @@ The Horse Riding Lessons booking system allows users to book horse riding lesson
 * [User Stories](#user-stories)
 ### [Design](#design-1)
 * [Color Scheme](#color-scheme)
-* [Horse Images](#horse-images)
 * [Typography](#typography)
 * [Wireframes](#wireframes)
 * [Database Scheme](#database-scheme)
@@ -167,19 +166,12 @@ Each user has the ability to:
 ## Design
 
 ### Color Scheme
-* I wanted a color palette that was warm and welcoming but also energetic.
-* I did a Google search for the top 50 website color schemes but I couldn't find any that I like for this website.
-* I tried a few combinations myself before settling on this one:
+* A color palette that was warm and welcoming but also energetic was chosen for this project.
 
 ![Color Palette](documentation/images/PP4_color_palette.png)
 
-### Horse Images
-* All the images of the horses were downloaded from https://www.pexels.com
-* The images were resized and converted to .webp using https://www.resizepixel.com
-
 ### Typography
-* I picked the Roboto font family for my website because it's easy to read and has a warm and welcoming look.
-* I import it from [Google Fonts](https://fonts.google.com/)
+* The Roboto font family was chosen for my website because it's easy to read and has a warm and welcoming look.
 
 ### Wireframes
 <details>
@@ -584,9 +576,14 @@ Forking is a way to make a copy of the original repository on your GitHub accoun
 ## References
 
 ### Credits
-* I used https://docs.djangoproject.com for Django documentation.
-* I used https://getbootstrap.com/docs/5.3 to learn more about Bootstrap.
-* I used https://www.w3schools.com to simplify some of the documentation in Django and Bootstrap.
+* https://www.elephantsql.com/index.html was used to store the database.
+* https://cloudinary.com/ was used to store the horse images.
+* All the images of the horses were downloaded from https://www.pexels.com
+* The images were resized and converted to .webp using https://www.resizepixel.com
+* The Roboto font family was imported from [Google Fonts](https://fonts.google.com/)
+* https://docs.djangoproject.com was used for Django documentation.
+* https://getbootstrap.com/docs/5.3 was used to learn more about Bootstrap.
+* https://www.w3schools.com was used to simplify some of the documentation in Django and Bootstrap.
 
 ### Acknowledgments
 I would like to thank my mentor Mitko Bachvarov for his support and feedback throughout my project.
