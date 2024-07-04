@@ -17,5 +17,10 @@ class BookingForm(forms.ModelForm):
     """
     class Meta:
         model = Booking
-        fields = ('lesson_date', 'lesson_time', 'location', 'experience')
+        fields = ('lesson_date', 'lesson_time', 'location', 'experience', 'age')
         widgets = {"lesson_date": DateInput()}
+        labels = {
+            'lesson_date': 'Lesson Date',
+            'lesson_time': 'Lesson Time',
+            'age': 'Child/Adult (Optional)'
+        }
