@@ -397,6 +397,9 @@ The booking form and edit_booking forms are validated to ensure:
 * This field is validated to ensure the user does not choose a previous date.
 * The next three input fields are dropdown menus allowing the user to choose from a specific list.
 * The user can choose the lesson time, indoor or outdoor and their level of experience.
+* There are also two optional input fields at the bottom of the form.
+* The first allows the user to indicate if they are an adult or a child.
+* The second allows the user to enter their height in meters.
 
 ![Make Booking Page](documentation/screenshots/tablet/make_booking.png)
 
@@ -413,7 +416,7 @@ The booking form and edit_booking forms are validated to ensure:
 #### Edit Booking Page
 
 * The "Edit Booking Page" has a form similar to the "make booking" form.
-* The user can change any of the four input field values and click on the "Update Booking" button.
+* The user can change any of the six input field values and click on the "Update Booking" button.
 * This will update the details of their booking in the database.
 * The "Cancel" button allows the user to return to the "My Bookings Page".
 
@@ -452,23 +455,23 @@ The booking form and edit_booking forms are validated to ensure:
 
 * Update Successful
 
-![Update Successful Message](documentation/screenshots/desktop/messages/update_successful.png)
+![Update Successful Message](documentation/screenshots/desktop/messages/update_successful_bar.png)
 
 * Booking Deleted Successfully
 
-![Booking Deleted Successfully Message](documentation/screenshots/desktop/messages/delete_successful.png)
+![Booking Deleted Successfully Message](documentation/screenshots/desktop/messages/delete_successful_bar.png)
 
 * Horse Booked
 
-![Horse Booked Message](documentation/screenshots/desktop/messages/horse_booked.png)
+![Horse Booked Message](documentation/screenshots/desktop/messages/horse_booked_bar.png)
 
 * Lesson Time Booked
 
-![Lesson Time Booked Message](documentation/screenshots/desktop/messages/lesson_time_booked.png)
+![Lesson Time Booked Message](documentation/screenshots/desktop/messages/lesson_time_booked_bar.png)
 
 * Date Not Current
 
-![Date Not Current Message](documentation/screenshots/desktop/messages/date_not_current.png)
+![Date Not Current Message](documentation/screenshots/desktop/messages/date_not_current_bar.png)
 
 ### Future Features
 * Allow users to add reviews for each horse.
