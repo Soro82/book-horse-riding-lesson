@@ -370,3 +370,5 @@ Click [here](README.md) to return to the readme file.
 ![Footer](documentation/screenshots/desktop/footer.png)
 
 ![Footer Mobile](documentation/screenshots/mobile/footer.png)
+
+[Back to Top](#testing)
