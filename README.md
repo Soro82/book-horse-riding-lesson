@@ -64,7 +64,7 @@ To allow users to:
 * See a message confirming they are logged out.
 
 ### Target Audience
-The website is designed to allow people to book horse riding lessons. They can choose the date and time for their lesson, whether they would like it indoor or outdoor, their level of experience and what horse they would like for their lesson. With the CRUD (Create, Read, Update, Delete) functionality they can also view, edit and delete their bookings when they log into their account.
+The website is designed to allow people to book horse riding lessons. They can choose the date and time for their lesson, whether they would like it indoor or outdoor, their level of experience and what horse they would like for their lesson. They also have the option to indicate if they are an adult or a child and to enter their height if they wish. With the CRUD (Create, Read, Update, Delete) functionality they can also view, edit and delete their bookings when they log into their account.
 
 Each user has the ability to:
 
@@ -340,14 +340,14 @@ The booking form and edit_booking forms are validated to ensure:
 #### Navbar(Logged Out)
 
 * The Navbar contains the website title which is also a link to the home page.
-* The links to "Home" and "Horses" are always available logged in and logged out users.
+* The links to "Home" and "Horses" are always available to logged in and logged out users.
 * When the user is logged out the links to "Login" and "Signup" are available.
 
 ![Navbar(Logged Out)](documentation/screenshots/desktop/navbar_logged_out.png)
 
 #### Navbar(Logged In)
 
-* When the user is logged in the "Login" and "Signup" links change to the user's name as a dropdown menu.
+* When the user is logged in, the "Login" and "Signup" links change to the user's name as a dropdown menu.
 * Inside the dropdown menu are the links "My Bookings", "Make Booking" and "Logout".
 * The "My Bookings" link opens the "My Bookings Page".
 * The "Make Booking" link opens the "Horses Page" to allow the user to choose a horse to book a lesson for.
@@ -364,7 +364,7 @@ The booking form and edit_booking forms are validated to ensure:
 
 #### Popular Horses(Logged In)
 
-* When the user is logged in the "Login" button changes to a "Book Now" button.
+* When the user is logged in, the "Login" button changes to a "Book Now" button.
 * When clicked the button will open the "Make Booking" page allowing the user to book a lesson with the horse selected.
 
 ![Popular Horses(Logged In)](documentation/screenshots/desktop/popular_horses_logged_in.png)
@@ -382,7 +382,7 @@ The booking form and edit_booking forms are validated to ensure:
 
 #### Horses Page(Logged In)
 
-* When the user is logged in the "Login" button changes to a "Book Now" button.
+* When the user is logged in, the "Login" button changes to a "Book Now" button.
 * When clicked the button will open the "Make Booking" page allowing the user to book a lesson with the horse selected.
 
 ![Horses Page(Logged In)](documentation/screenshots/desktop/horses_logged_in.png)
@@ -433,9 +433,13 @@ The booking form and edit_booking forms are validated to ensure:
 
 #### Signup Page
 
+* The Signup Page contains a link to the "Login Page" to allow users who are already signed up to log in.
+
 ![Signup Page](documentation/screenshots/tablet/signup.png)
 
 #### Login Page
+
+* The Login Page contains a link to the "Signup Page" to allow unregistered users to register an account.
 
 ![Login Page](documentation/screenshots/tablet/sign_in.png)
 
@@ -581,6 +585,7 @@ Forking is a way to make a copy of the original repository on your GitHub accoun
 * All the images of the horses were downloaded from https://www.pexels.com
 * The images were resized and converted to .webp using https://www.resizepixel.com
 * The Roboto font family was imported from [Google Fonts](https://fonts.google.com/)
+* I downloaded the favicon from www.freepik.com.
 * https://docs.djangoproject.com was used for Django documentation.
 * https://getbootstrap.com/docs/5.3 was used to learn more about Bootstrap.
 * https://www.w3schools.com was used to simplify some of the documentation in Django and Bootstrap.
